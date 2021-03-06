@@ -9,5 +9,6 @@ class U
 		System.out.println(j);
 		j = 40.0;//reinitialization
 		System.out.println(j);
+
 	}
 }
