@@ -1,4 +1,4 @@
 class R
 {
-static int i=10;
+	static int i = 10;
 }

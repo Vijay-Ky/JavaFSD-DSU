@@ -1,7 +1,7 @@
 class S
 {
-static void test()
-{
-System.out.println("from test");
-}
+	static void test()
+	{
+		System.out.println("from test");
+	}
 }

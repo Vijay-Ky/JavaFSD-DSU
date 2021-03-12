@@ -1,6 +1,6 @@
 class I
 {
-      static int i=test();
+      static int i = test();
       static
       {
           System.out.println("SIB1");
