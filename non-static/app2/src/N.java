@@ -9,7 +9,7 @@ class N
 		this();
 		System.out.println("N(int)");
 	}
-	public static void main(String[]args)
+	public static void main(String[] args)
 	{
 		N n1 = new N();
 		System.out.println("-----");

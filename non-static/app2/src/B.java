@@ -3,7 +3,7 @@ class B
 	B()
 	{
 		super();
-		System.out.println("B");
+		System.out.println("B()");
 	}
 	public static void main(String[]args)
 	{	

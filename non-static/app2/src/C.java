@@ -4,7 +4,7 @@ class C
 	C()
 	{
 		System.out.println("C()");
-		i = 10;
+		this.i = 10;
 	}
 	public static void main(String[]args)
 	{
