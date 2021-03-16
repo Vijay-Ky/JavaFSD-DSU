@@ -32,6 +32,6 @@ Hello World!: 4
 means length with 0. but not null. null means no array.
 //empty means array got defined but no elements.
 
-//no matte what type of values we supply all the values will be converting into
+//no matter what type of values we supply all the values will be converting into
 String and stored inside the string array.
 */
