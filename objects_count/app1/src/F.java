@@ -13,7 +13,6 @@ class F
 	{
 		count++;
 	}
-	//
 	//common code that we suppose to keep in every constructor body
 	{
 		count++;
