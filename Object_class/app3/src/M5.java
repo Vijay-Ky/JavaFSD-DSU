@@ -1,5 +1,3 @@
-package app3;
-
 class M5 
 {
 	public static void main(String[] args) 

@@ -1,5 +1,3 @@
-package app3;
-
 class C
 {
 	int i;

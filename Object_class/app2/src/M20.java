@@ -1,5 +1,3 @@
-package app2;
-
 class H
 {
 	int i, j, k;
@@ -25,11 +23,11 @@ class M20
 		H h1 = new H(10, 20, 30);
 		H h2 = new H(10, 20, 30);
 	
-		System.out.println(h1.equals(h2));//true
-		System.out.println(h1.equals(10));//false
-		System.out.println(h1.equals(new H(10, 20, 30)));//true
-		System.out.println(h1.equals(new H(10, 20, 31)));//false
-		System.out.println(h1.equals("hello"));//false
+		System.out.println(h1.equals(h2));
+		System.out.println(h1.equals(10));
+		System.out.println(h1.equals(new H(10, 20, 30)));
+		System.out.println(h1.equals(new H(10, 20, 31)));
+		System.out.println(h1.equals("hello"));
 	}
 }
 /*

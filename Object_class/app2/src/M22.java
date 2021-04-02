@@ -1,5 +1,3 @@
-package app2;
-
 class M22 
 {
 	public static void main(String[] args) 

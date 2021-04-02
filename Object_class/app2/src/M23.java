@@ -1,5 +1,3 @@
-package app2;
-
 class M23 
 {
 	public static void main(String[] args) 

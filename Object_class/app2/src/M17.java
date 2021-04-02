@@ -1,9 +1,3 @@
-package app2;
-
-class M 
-{
-	int i;
-}
 class N 
 {
 	int i;
@@ -15,6 +9,14 @@ class N
 	{
 		N ref = (N) obj;//downcasting obj into N
 		return i == ref.i;
+	}
+}
+class M extends N 
+{
+	int i;
+	M()
+	{
+		super(90);
 	}
 }
 class M17 

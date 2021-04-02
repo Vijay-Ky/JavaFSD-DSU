@@ -1,5 +1,3 @@
-package app2;
-
 class J
 {
 	int x;//primitive
@@ -33,11 +31,11 @@ class M27
 
 		j3.x = 10;
 
-		//System.out.println(j1.equals(j2));
-		//System.out.println(j1.equals(j3));
-		//System.out.println(j2.equals(j3));
-		//System.out.println(j3.equals(j2));
-		//System.out.println(j2.equals(j1));
+		System.out.println(j1.equals(j2));
+		System.out.println(j1.equals(j3));
+		System.out.println(j2.equals(j3));
+		System.out.println(j3.equals(j2));
+		System.out.println(j2.equals(j1));
 	}
 }
 /*

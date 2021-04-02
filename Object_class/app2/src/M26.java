@@ -1,5 +1,3 @@
-package app2;
-
 class I
 {
 	int x;//primitive
@@ -25,11 +23,11 @@ class M26
 		i2.s1 = "hello";
 
 		//if any one attribute changes returns false
-		System.out.println(i1.equals(i2));//true
+		System.out.println(i1.equals(i2));
 
 		I i3 = new I();
 		//in this case i3.x values is 0 i3.s1 value is null
-		System.out.println(i3.equals(i1));//false
+		System.out.println(i3.equals(i1));
 
 		//s1 is null
 		I i4 = new I();

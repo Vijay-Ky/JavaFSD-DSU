@@ -1,13 +1,3 @@
-package app2;
-
-class O extends F
-{
-	int i;
-	O()
-	{
-		super(900);
-	}
-}
 class F
 {
 	int i;
@@ -26,19 +16,23 @@ class F
 		return this.i == ref.i;
 	}
 }
+class O 
+{
+	int i;
+}
 class M18 
 {
 	public static void main(String[] args) 
 	{
 		F f1 = new F(900);
-		F f2 = new F(90);
+		F f2 = new F(900);
 	
 		O o1 = new O();
 		o1.i = 90;
-		System.out.println(f1.equals(f2));//true
-		System.out.println(f1.equals(o1));//false
-		System.out.println(f1.equals("xyz"));//false
-		System.out.println(f1.equals(90));//f
-		System.out.println(f1.equals(true));//f
+		System.out.println(f1.equals(f2));
+		System.out.println(f1.equals(o1));
+		System.out.println(f1.equals("xyz"));
+		System.out.println(f1.equals(90));
+		System.out.println(f1.equals(true));
 	}
 }

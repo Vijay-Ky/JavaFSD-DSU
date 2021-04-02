@@ -1,0 +1,405 @@
+1.
+CTE
+
+2. 
+10
+20
+10
+20
+
+3.
+CTE
+
+4.
+CTE
+
+5.
+CTE
+
+6.
+2
+14
+
+7.
+1
+0
+
+8.
+0
+-3
+
+9.
+-2
+-4
+
+10.
+CTE
+
+11.
+from if
+end of main
+
+12.
+end of main
+1
+
+13.
+end of main
+false
+
+14.
+from if
+end of main
+3
+
+
+15.
+2
+3
+
+19.
+CTE
+
+20.
+else2
+
+21.
+from last else
+
+
+22.
+CTE
+
+
+23.
+CTE
+
+24.
+CTE
+
+25.
+CTE
+
+
+26.
+0,20
+1,19
+2,18
+3,17
+4,16
+5,15
+6,14
+7,13
+8,12
+9,11
+10,10
+11,9
+12,8
+13,7
+14,6
+15,5
+
+
+
+27.
+0,20
+1,19
+2,18
+3,17
+4,16
+5,15
+
+
+28.
+loop begin
+loop end
+loop begin
+loop end
+loop begin
+loop end
+loop begin
+loop end
+loop begin
+loop end
+loop begin
+loop end
+loop begin
+loop begin
+loop begin
+loop begin
+main end
+
+29.
+loop1 begin
+loop2 begin
+loop2 end
+loop2 begin
+loop2 end
+loop2 begin
+loop2 end
+loop2 begin
+loop1 end
+loop1 begin
+loop2 begin
+loop2 end
+loop2 begin
+loop2 end
+loop2 begin
+loop2 end
+loop2 begin
+loop1 end
+main end
+
+30.
+2
+2
+2
+!
+
+31.
+loop1 begin
+loop2 begin
+loop2 end
+loop2 begin
+loop2 begin
+loop2 begin
+loop2 begin
+loop1 end
+loop1 begin
+loop2 begin
+loop2 end
+loop2 begin
+loop2 begin
+loop2 begin
+loop2 begin
+loop1 end
+loop1 begin
+loop2 begin
+loop2 end
+loop2 begin
+loop2 begin
+loop2 begin
+loop2 begin
+loop1 end
+loop1 begin
+loop2 begin
+loop2 end
+loop2 begin
+loop2 begin
+loop2 begin
+loop2 begin
+loop1 end
+loop1 begin
+loop2 begin
+loop2 end
+loop2 begin
+loop2 begin
+loop2 begin
+loop2 begin
+loop1 end
+
+32.
+loop1 begin:0
+loop2 begin:0
+loop2 end:1
+loop2 begin:1
+loop2 end:2
+loop1 end:1
+loop1 begin:1
+loop2 begin:0
+loop2 end:1
+loop2 begin:1
+loop2 end:2
+loop1 end:2
+loop1 begin:2
+loop2 begin:0
+loop2 end:1
+loop2 begin:1
+loop2 end:2
+loop1 end:3
+
+33.
+0
+0
+10
+20
+
+34.
+0
+10
+0
+20
+0
+
+35.
+java:5: error: illegal forward reference
+    static int m = n;
+                   ^
+1 error
+
+36.
+3
+
+37.
+0
+10
+
+38.
+from test1
+10
+from test1
+10
+
+39.
+O-SIB
+O-main-b
+N-SIB
+10
+10
+10
+O-main-e
+
+40.
+V-SIB
+V-main-begin
+U-SIB
+U-main
+-----
+U-main
+V-main-end
+
+41.
+10
+
+42.
+2
+
+43.
+test
+SIB1
+SIB2
+done
+10
+
+44.
+test begin
+main0
+test end
+Sib begin
+main20
+Sib end
+main20
+
+45.
+test
+SIB1
+SIB2
+done
+10
+
+46.
+Q-SIB
+------
+P-SIB
+from test1
+from test1
+from test1
+------
+
+47.
+from main
+
+48.
+CTE
+
+49.
+CTE
+
+50.
+main begin
+from if
+
+51.
+main begin
+test1 begin
+test2 begin
+test2 end
+test1 end
+main end
+
+52.
+test:0
+SIB:69
+main begin:10
+test:33
+69
+main end:33
+
+53.
+CTE
+
+54.
+20
+
+55.
+10
+20
+20
+10
+
+56.
+CTE
+
+57.
+SIB1
+SIB2
+IIB1
+IIB2
+K()
+-----
+IIB1
+IIB2
+K()
+K(int)
+-----
+IIB1
+IIB2
+K()
+K(int)
+K(int,int)
+-----
+
+58.
+10
+
+59.
+No
+
+60.
+private-default-protected-public
+
+61.
+public-protected-default-private
+
+62.
+done
+
+63.
+to A
+to B
+to C
+
+64.
+false
+true
+true
+
+65.
+CTE
+
+66.
+widening
+boxing
+upcasting to Number or Object
+var-arg
+

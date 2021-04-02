@@ -1,5 +1,3 @@
-package app2;
-
 import java.util.ArrayList;
 class M25 
 {
