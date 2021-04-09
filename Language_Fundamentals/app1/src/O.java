@@ -1,8 +1,8 @@
-class O
+class O 
 {
-	public static void main(String[] a) 
+	public static void main(String[] args)
 	{
-		int i     = 0;
+		int i = 0;
 		System.out.println(i);
 	}
 }

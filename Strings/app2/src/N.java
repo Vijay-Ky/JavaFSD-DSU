@@ -1,5 +1,3 @@
-package app2;
-
 public class N {
 
 	public static void main(String[] args) {
@@ -10,7 +8,7 @@ public class N {
 		char c3 = s1.charAt(4);
 		
 		//char c4 = s1.charAt(-1);
-		//char c5 = s1.charAt(5);
+		char c5 = s1.charAt(5);
 		
 		System.out.println(c1);
 		System.out.println(c2);

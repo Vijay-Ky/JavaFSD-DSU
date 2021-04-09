@@ -1,5 +1,3 @@
-package app3;
-
 import java.util.HashSet;
 class E
 {

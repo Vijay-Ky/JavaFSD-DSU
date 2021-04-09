@@ -1,9 +1,8 @@
-package app1;
-
 public class V {
 
 	public static void main(String[] args) {
-		String s1 = "abc"+ null;
+		//String s1 = null;
+		String s1 = "abc" + null;
 		System.out.println(s1.length());	
 	}
 }

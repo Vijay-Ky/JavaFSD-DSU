@@ -1,5 +1,3 @@
-package app3;
-
 class M6 
 {
 	public static void main(String[] args) 

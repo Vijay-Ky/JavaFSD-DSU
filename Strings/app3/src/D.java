@@ -1,5 +1,3 @@
-package app3;
-
 public class D {
 	public static void main(String[] args) {
 		String s1 = "java";// creating constant

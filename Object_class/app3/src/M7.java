@@ -1,5 +1,3 @@
-package app3;
-
 class M7 
 {
 	public static void main(String[] args) 
@@ -9,7 +7,7 @@ class M7
 		Character obj3 = 'a';
 		Character obj4 = new Character('a');
 		Boolean obj5 = true;
-		Boolean obj6 = new Boolean(true);
+		Boolean obj6 = new Boolean(false);
 		System.out.println(obj1.hashCode());
 		System.out.println(obj2.hashCode());
 		System.out.println(obj3.hashCode());

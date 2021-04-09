@@ -4,7 +4,7 @@ class X
 	{
 		int x, y, z = 20, p;
 		x = 10;
-		y = p = 40;
+		y = p = 40;//compound assignment
 		System.out.println(x);
 		System.out.println(y);
 		System.out.println(z);

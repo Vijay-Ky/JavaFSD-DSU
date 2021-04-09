@@ -1,5 +1,3 @@
-package app3;
-
 class D
 {
 	int i, j;
@@ -15,7 +13,7 @@ class D
 		int hash = s1.hashCode();
 		System.out.println(s1.hashCode() + ", "  + s2.hashCode());
 		hash += s2.hashCode();
-		System.out.println("final hashcode is: " + hash );
+		System.out.println("final hashcode is: " + hash);
 		return hash;
 	}
 }
