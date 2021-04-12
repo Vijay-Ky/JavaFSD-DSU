@@ -10,7 +10,7 @@ class H extends G
 {
 	int test1()
 	{
-		System.out.println("from test1.G");
+		System.out.println("from test1.H");
 	}
 	public static void main(String[] args) 
 	{

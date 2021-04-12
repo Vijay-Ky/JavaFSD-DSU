@@ -15,8 +15,8 @@ class Q extends P
 	}
 	public static void main(String[] args) 
 	{
-		Q q1 = new Q();
-		q1.test1();
-		q1.test1(10);
+		P p1 = new Q();
+		//p1.test1();
+		p1.test1(10);
 	}
 }

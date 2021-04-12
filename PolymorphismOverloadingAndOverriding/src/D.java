@@ -14,8 +14,8 @@ class D extends C
 	}
 	public static void main(String[] args) 
 	{
-		//D d1 = new D();
-		//d1.test1();
+		D d1 = new D();
+		d1.test1();
 		C c1 = new D();
 		c1.test1();
 	}

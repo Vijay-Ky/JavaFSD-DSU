@@ -10,7 +10,7 @@ class J
 		I ref1 = I.test3;
 		System.out.println(ref1);
 		ref1 = I.test1;
-		System.out.println(ref1);
+		System.out.println(ref1);	
 	}
 }
 //enum can be used to specify the datatype
