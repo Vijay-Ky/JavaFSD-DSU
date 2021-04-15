@@ -1,6 +1,6 @@
 class L
 {
-	static void test1(int i)
+	static void test1()
 	{
 		System.out.println("from test1.L");
 	}
@@ -14,8 +14,8 @@ class M extends L
 	}
 	public static void main(String[] args) 
 	{
-		M m1 = new M();
-		m1.test1();
-		m1.test1(10);
+		L l1 = new M();
+		l1.test1();
+		l1.test1();
 	}
 }

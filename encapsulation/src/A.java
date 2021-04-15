@@ -42,8 +42,8 @@ class MyDriver
 		System.out.println("Name: " + a1.getName() + " Age: " + a1.getAge() +
 			" Idnum: " + a1.getIdnum());
 		a1.setName("vijay");
-		a1.setAge(990);
-		a1.setIdnum("A1420");
+		a1.setAge(90);
+		a1.setIdnum("100");
 		System.out.println("Name: " + a1.getName() + " Age: " + a1.getAge() +
 			" Idnum: " + a1.getIdnum());
 	}
