@@ -22,6 +22,7 @@ class P extends Thread
 public class M19 {
 
 	public static void main(String[] args) {
+		System.out.println("Initial Priority main: " + Thread.currentThread().getPriority());
 		Thread.currentThread().setPriority(10);
 		P p1 = new P();
 		p1.start();

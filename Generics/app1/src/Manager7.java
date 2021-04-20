@@ -20,7 +20,7 @@ class H <X>
 }
 class Manager7
 {
-	public static void main(String [] args)
+	public static void main(String[] args)
 	{
 		H <String> h1 = new H <String> ();
 		h1.set("abc");

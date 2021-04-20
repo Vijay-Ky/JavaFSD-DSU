@@ -22,7 +22,7 @@ class A
 		//notify doest required interrupted exception.
 		//in case of notify it doesnt release lock until it executes the method
 		//in case of notify only one thread will be notified randomly.
-		//in case of only notify only thread will be finishing execution others keep on waiting
+		//in case of notify only one thread notified and will be finishing execution others keep on waiting
 		//notify();
 		//in case of notifyAll() all the waiting threads will be notified and finishing the execution.
 		notifyAll();

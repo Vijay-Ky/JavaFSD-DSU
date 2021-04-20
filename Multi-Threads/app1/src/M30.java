@@ -15,7 +15,7 @@ public class M30 {
 	public static void main(String[] args) {
 		
 		//while creating the thread itself it is starting in the constructor
-		//we can call it as auto start
+		//we can call it as auto-start
 		X x1 = new X();
 		for(int i = 0; i <= 10; i++)
 		{

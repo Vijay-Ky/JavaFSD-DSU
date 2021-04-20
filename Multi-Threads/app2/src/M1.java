@@ -27,7 +27,7 @@ class Thread1 extends Thread
 	}
 	@Override
 	public void run() {
-		//s1 is a shared type
+		//s1 is a Shared type
 		s1.test1();
 	}
 }
@@ -40,7 +40,7 @@ class Thread2 extends Thread
 	}
 	@Override
 	public void run() {
-		//s1 is a shared type
+		//s1 is a Shared type
 		s1.test1();
 	}
 }
@@ -48,7 +48,7 @@ public class M1 {
 
 	public static void main(String[] args) {
 		Shared s1 = new Shared();
-		Shared s2 = new Shared();
+		//Shared s2 = new Shared();
 		
 		Thread1 t1 = new Thread1(s1);
 		Thread2 t2 = new Thread2(s1);

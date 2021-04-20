@@ -13,6 +13,7 @@ class M25
 			a1 = new Test7 <Number> ();
 			a1 = new Test7 <Integer> ();	
 			a1 = new Test7 <Byte> ();		
+			//a1 = new Test7 <String> ();		
 			System.out.println("done");	
 		}
 	}

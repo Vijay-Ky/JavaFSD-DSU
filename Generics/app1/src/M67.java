@@ -10,6 +10,6 @@ class M67
 	public static void main(String[] args)
 	{
 		String s1 = Test35.<Integer, String> test(100, "dfd");
-		System.out.println("done with" + s1);	
+		System.out.println("done with: " + s1);	
 	}
 }

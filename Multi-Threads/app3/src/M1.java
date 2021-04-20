@@ -64,6 +64,8 @@ public class M1 {
 		
 		t1.start();
 		t2.start();
+
+		s1.test1();
 	}
 }
 /* 

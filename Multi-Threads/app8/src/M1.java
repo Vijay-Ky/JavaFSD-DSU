@@ -59,7 +59,7 @@ public class M1 {
 
 	public static void main(String[] args) throws InterruptedException{
 		A obj1 = new A();
-		A obj2 = new A();
+		//A obj2 = new A();
 		
 		//both thread are using obj1
 		Thread t1 = new Thread1(obj1);

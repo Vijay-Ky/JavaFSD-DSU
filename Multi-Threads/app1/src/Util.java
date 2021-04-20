@@ -9,6 +9,7 @@ public class Util {
 		}
 		catch(InterruptedException ex)
 		{
+			System.out.println("Sleeping got interrupted and Exception handled successfully, flow is normal");
 			ex.printStackTrace();
 		}
 	}

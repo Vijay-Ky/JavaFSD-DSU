@@ -8,6 +8,7 @@ class A
 	//synchronized static void test1()
 	{
 		Thread t1 = Thread.currentThread();
+		System.out.println("from test1 non-synchronized statement: " + " by " + t1.getName());
 		synchronized(A.class) {
 		for(int i = 1; i <= 100; i++)
 		{
@@ -19,12 +20,12 @@ class A
 	//synchronized static void test2()
 	{
 		Thread t1 = Thread.currentThread();
-		//synchronized(A.class) {
+		synchronized(A.class) {
 		for(int i = 1; i <= 100; i++)
 		{
 			System.out.println("from test2: " + i + " by " + t1.getName());
 		}
-	  //}
+	  }
 	}
 }
 class Thread1 extends Thread

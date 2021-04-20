@@ -60,7 +60,7 @@ public class M4 {
 		
 		s1.test1();
 
-		s2.test2();
+		//s2.test2();
 	}
 }
 /* 

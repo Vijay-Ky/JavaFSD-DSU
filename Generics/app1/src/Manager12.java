@@ -8,7 +8,7 @@ class Manager12
 		
 		U <Integer> u1 = new U <Integer> ();
 		U <Double> u2 = new U <Double> ();
-		U <String> u3 = new U <String> ();
+		//U <String> u3 = new U <String> ();
 		System.out.println("done");
 	}
 }
