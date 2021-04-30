@@ -1,0 +1,99 @@
+different collections
+-------------------
+1. in collection api we have mainly two interfaces
+Collection and Map interface.
+
+List
+------------
+1.in case of List type of object elements will be stored with an index.
+2. in which order we have added in the same order we can read.
+3. order is preserved in case of list type of containers.
+4. because of this get method is there we can supply index value.
+
+5. under List we have mainly three concrete classes ArrayList, vector, LinkedList
+6. ArrayList and Vector both are just List type but LinkedList is both List and Queue type.
+7. In all these classes while element is adding index is assigning.
+8. Vector is a synchronized and we can use in the multithreaded environment.
+9. if you want to use List type in the multithreaded environment choose the vector.
+10. ArrayList internally using array. we get more performance while reading. reading also called as random access.
+11. ArrayList is best if frequent reading operation is there. ArrayList is best with respect to container.
+12. LinkedList is not effective in case of reading operation. 
+    it has to read the first element and through its reference it has to idintify where the second element is there
+    elements are scattered in the memory. elements can be anywhere in the memeory.
+13. In case of ArrayList index will be in the increment order so reading operation is effective.
+14. In case of ArrayList inserting new element in the middle it is very expensive operation.
+    because lot of shifting need to be performed. insertion operation is not effective. if more frequent
+    insertion operation is there. less performance
+15. in case of LinkedList frequest insertion is very effective. bcz only link between two elements will be
+    removing and other elements will not be disturbing. 
+16. if frequent random access is there choose ArrayList. if frequest insertion is there choose LinkedList.
+17. ArrayList is only List type but LinkedList is both List type and Queue type.
+18. in LinkedList we have removefirst, removelast, peek, poll, these are the queue features of LinkedList.
+19. vector became legacy class. now a days vector usage is less. 
+20. Vector is synchronized. instead of using built-in synchronized class we can develop our ArrayList class
+    as synchronized. there we get more performance.
+21. built-in synchronized performance is low.	
+22. in case of List you can insert null elements and duplicate elements.
+23. for all the List type object for sorting purpose we are using Collections.sort.
+
+
+
+
+
+
+
+
+
+Queue
+--------------------
+1. if you want to store elements in the queue format or stack format.
+2. in case of queue elements will be not storing with any index or a key
+3. because of that order cant be preserved.
+4. doesnt have get method because order is not preserved.
+
+5.under Queue there are mainly two classes or types LinkedList and PriorityQueue
+6.LinkedList is both List type and Queue type.
+7.PriorityQueue is pure queue type. both are concrete classes.
+8.
+
+
+Set
+--------------------
+1.Set avoiding duplicates. allows only unique elements.
+2.in case of set elements will be not storing with any index or a key
+3.doesnt have get method because order is not preserved.
+
+4. HashSet, LinkedHashSet, TreeSet are classes under Set. SortedSet and NavigableSet are the interfaces under Set.
+5. to identify duplicates internally it is calling hashCode and equals method. these two methods are from object class.
+
+Map
+---------------------
+1.element should be added along with the key.
+2.key and element should be both as one map.
+3.order of addition cant be preserved in case of Map also.
+4.every element adding along with the key.
+5.get method is there in the map also we supply key and value.
+
+6.under Map we have HashMap, Hashtable, LinkedHashMap and TreeMap 4 classes are available.
+7.HashMap is the non-synchronized.
+8.HashMap allows null as a key and null as a value.
+9.Hashtable is the synchronized.
+10.Hashtable doesnt allow null as a key and null as a value.
+11.LinkedHashMap it maitains the order.
+12.TreeMap is used for sorting purpose.sorting all the entries based on the key is the TreeMap.
+
+
+Note: in case of List, Collection is for sorting
+	in case of Set, TreeSet for sorting
+	in case of Queue, PriorityQueue for sorting
+	in case of Map, it is TreeMap.
+
+Note: get method available in two streams List and Map. under List index as the element. under Map key as the element. 
+
+13.Map is a interface it is not extending to the Collection interface
+14.under Map SortedMap and NavigableMap both are interfaces.
+
+
+- Only in all the List type order is preserved.
+
+- under collection type we can use for-each but not in Map
