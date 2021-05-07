@@ -14,6 +14,6 @@ public class Manager28 {
 		Collections.sort(list);
 		System.out.println(list);
 		int i = Collections.binarySearch(list, 49);
-		System.out.println("element available at: "+ i);
+		System.out.println("element available at: " + i);
 	}
 }

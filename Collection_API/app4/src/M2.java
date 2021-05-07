@@ -13,6 +13,7 @@ class A
 	}
 	public int hashCode()
 	{
+		System.out.println("Hashcode of " + this + "is: " + i);
 		return i;
 	}
 	public boolean equals(Object obj)

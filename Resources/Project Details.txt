@@ -1,0 +1,24 @@
+Project on -- 1
+HTML
+CSS
+Javascript
+Project - Modern Portfolio
+---------------------------
+Project Based Learning
+--------------------
+JDBC(Core Java)
+Servlet
+JSP
+Project - Simple Database Application
+---------------------
+
+Project on React
+React
+Project - To-do-list
+--------------------------
+
+Project on
+Springs and Hibernate
+Spring - Corona cases Tracker
+----------------------------
+

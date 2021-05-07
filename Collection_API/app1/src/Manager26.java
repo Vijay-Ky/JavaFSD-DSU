@@ -42,9 +42,9 @@ class Manager26 {
 		list.add(new F(5, 1));
 		System.out.println(list);
 		Collections.sort(list, new SortBasedOnIValue());
-		System.out.println(list);
+		System.out.println("SortBasedOnIValue " + list);
 		Collections.sort(list, new SortBasedOnJValue());
-		System.out.println(list);
+		System.out.println("SortBasedOnJValue: " + list);
 	}
 }
 /*

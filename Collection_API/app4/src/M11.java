@@ -9,8 +9,9 @@ class E
 	}
 	public String toString()
 	{
-		System.out.println("----------------start toString-----------------------");
-		return "address: " + super.hashCode() + " and state: (" + i + ")";
+		System.out.println("----------------from toString-----------------------");
+		
+		return "address: " + super.hashCode() + " and state: (" + i + ")"+"from the return of toString method";
 	}
 	
 	public int hashCode()

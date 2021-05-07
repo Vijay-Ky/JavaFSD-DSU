@@ -10,7 +10,7 @@ public class Manager35 {
 		list.add(40);
 
 		Iterator it = list.iterator();
-
+		
 		while (it.hasNext()) {
 			System.out.println(it.next());
 		}

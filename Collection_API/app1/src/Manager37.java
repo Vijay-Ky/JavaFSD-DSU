@@ -9,11 +9,24 @@ public class Manager37 {
 		list.add(0);
 		list.add(40);
 
-		ListIterator it = list.listIterator();
+		ListIterator lit = list.listIterator();
 		//list.add(50);//use it.add(50) to avoid CuncurrentModificationException
-		 it.add(50);
-		while (it.hasNext()) {
-			System.out.println(it.next() + ",");
+		//list.add(50);
+		System.out.println("before adding the element");
+		while(lit.hasNext())
+		{
+			System.out.println("In the index: " + lit.nextIndex() + "The element: " + lit.next() + "is present");
 		}
+		System.out.println(list);
+		
+		/*
+		lit.add(50);
+		
+		System.out.println("after adding the element");
+
+		while(lit.hasPrevious())
+		{
+			System.out.println("In the index: " + lit.previousIndex() + "The element: " + lit.previous() + "is present");
+		}*/
 	}
 }

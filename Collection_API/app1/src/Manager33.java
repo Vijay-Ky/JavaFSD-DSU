@@ -8,6 +8,7 @@ public class Manager33 {
 		list.add(9);
 		list.add(0);
 		list.add(40);
+		System.out.println("initial list: " + list);
 		Iterator it = list.iterator();
 		while (it.hasNext())
 		{
@@ -19,6 +20,6 @@ public class Manager33 {
 				it.remove();
 			}
 		}
-		System.out.println(list);
+		System.out.println("ending list: " + list);
 	}
 }

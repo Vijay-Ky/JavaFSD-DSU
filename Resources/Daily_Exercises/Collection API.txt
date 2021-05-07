@@ -1,0 +1,173 @@
+1. What is the difference between Iterator and Enumeration?
+2. How do you Sort objects on the collection?
+3. What is Java Collections Framework? List out some benefits of Collections framework?
+4. What are the basic interfaces of Java Collections Framework?
+5. What is an Iterator?
+6. What is difference between Enumeration and Iterator interface?
+7. What is different between Iterator and ListIterator?
+8. What are different ways to iterate over a list?
+9. What is difference between Array and ArrayList? When will you use Array over ArrayList?
+10. What is Comparable and Comparator interface?
+11. What is Collections Class?
+12. What is difference between Comparable and Comparator interface?
+13. How can we sort a list of Objects?
+14. What are common algorithms implemented in Collections Framework?
+15. What is framework in Java?
+16. What is the Collection framework in Java?
+17. Distinguish between ArrayList and Vector in the Java collection framework.
+18. What is ArrayList in Java?
+19. Explain the basic interfaces of the Java collections framework
+
+
+20.How does HashMap work in Java? 
+21.What is the difference between poll() and remove() method of Queue interface?
+22.What is the difference between fail-fast and fail-safe Iterators? 
+23.How do you remove an entry from a Collection? and subsequently what is the difference between the remove() method of Collection and remove() method of Iterator, which one you will use while removing elements during iteration?
+24.What is the difference between Synchronized Collection and Concurrent Collection? 
+25.How does HashSet is implemented in Java, How does it use Hashing? 
+26.What do you need to do to use a custom object as a key in Collection classes like Map or Set? 
+27.The difference between HashMap and Hashtable? 
+28.When do you use ConcurrentHashMap in Java?
+29.What is the difference between Set and List in Java? 
+30.How do you Sort objects on the collection? 
+31.What is the difference between HashMap and HashSet? 
+32.What is NavigableMap in Java? What is a benefit over Map? 
+33.Which one you will prefer between Array and ArrayList for Storing object and why? 
+34.Can we replace Hashtable with ConcurrentHashMap? 
+35.What is CopyOnWriteArrayList, how it is different than ArrayList and Vector? 
+36.Why ListIterator has added() method but Iterator doesn't or Why to add() method is declared in ListIterator and not on Iterator. 
+37.When does ConcurrentModificationException occur on iteration? 
+38.Difference between Set, List and Map Collection classes? 
+39.What is BlockingQueue, how it is different than other collection classes? 
+40.Explain Collections Class
+41.What is the hashCode()?
+42.Differentiate between Iterator and ListIterator
+43.Define BlockingQueue
+44.Explain override equals() method
+45.List out benefits of generic collection
+46.Explain the method to convert ArrayList to Array and Array to ArrayList
+47.Give example of ArrayList
+48.Give example to sort an array in dscending order
+49.Explain the basic interfaces of the Java collections framework
+50.What are the features of Java Hashmap?
+51.What is a Stack?
+52.What is linked list?
+53.Explain linked list supported by Java
+54.Explain the methods provided by the Queue interface?
+55.Mention the methods provided by Stack class
+56.Define emptySet() in the Java collections framework
+57.Differentiate between Collection and Collections
+58.Define LinkedHashSet in the Java Collection framework?
+59.List collection views of a map interface
+60.What are the benefits of the Collection Framework in Java?
+61.What is a good way to sort the Collection objects in Java?
+62.Explain Vector in Java
+63.What is the difference between Set and Map?
+64.Define dictionary class
+65.Define EnumSet
+66.What are the two ways to remove duplicates from ArrayList?
+67.What is IdentityHashMap?
+68.What is WeakHashMap?
+69.What are the methods to make collection thread-safe?
+70.Explain UnsupportedOperationException
+71.Name the collection classes that gives random element access to its elements
+72.Mention the implementing List and Set interface
+73.Explain the design pattern followed by Iterator
+74.What is the peek() of the Queue interface?
+75.What is CopyOnWriteArrayList?
+76.Differentiate between ArrayList and LinkedList
+77.Explain the methods of iterator interface
+78.What are the methods of the HashSet class?
+79.What are the methods of Java TreeSet class?
+80.Explain Linked HashSet
+81.What are the important methods used in a linked list?
+82.List various classes available in sets
+83.Differentiate between List and Set.
+84.Explain for each loop with example
+85.Explain diamond operator
+86.Explain randomaccess interface
+87.How to join multiple ArrayLists?
+88.Explain deque Interface
+89.Explain Linkedhashmap
+90.Explain methods to remove elements from ArrayList
+100.Explain map. entry In Map
+101.Which method is used to sort an array in ascending order?
+102.How to measure the performance of an ArrayList?
+103.Explain LinkedList class
+104.Give an example of Hashmap
+105.How to iterate map?
+104.Explain Treemap in Java
+105.What is the difference between Hashmap and Hashtable?
+106.Explain the internal working of HashSet in Java
+107.Explain Big-O notation with an example
+108.Explain the best practices in Java Collection Framework
+109.Explain various types of queues in Java
+110.What is the difference between stack and Queue?
+111.What is the difference between array and stack?
+112.What are the various ways to iterate over a list?
+113.What are the advantages of the stack?
+114.Explain Collection’s hierarchy?
+115.Why Collection interface does not extend Cloneable and Serializable interface?
+116.Why Map interface does not extend Collection interface?
+117.Why we use List interface? What are main classes implementing List interface?
+118.How to convert an array of String to arraylist?
+119.How to reverse the list?
+120.Why we use Set interface? What are main classes implementing Set interface?
+121.How HashSet store elements?
+122.Can a null element added to a TreeSet or HashSet?
+123.Why we use Map interface? What are main classes implementing Map interface?
+124.Difference between IdentityHashMap and WeakHashMap?
+125.Explain ConcurrentHashMap? How it works?
+126.How hashmap works?
+127.How to design a good key for hashmap?
+128.What are different Collection views provided by Map interface?
+129.When to use HashMap or TreeMap?
+130.Difference between Set and List?
+131.Difference between List and Map?
+132.How to make a collection read only?
+133.How to make a collection thread safe?
+134.Why there is not method like Iterator.add() to add elements to the collection?
+135.What do you understand by iterator fail-fast property?
+136.What is difference between fail-fast and fail-safe?
+137.How to avoid ConcurrentModificationException while iterating a collection?
+138.What is UnsupportedOperationException?
+139.Which collection classes provide random access of it’s elements?
+140.What is BlockingQueue?
+141.What is Queue and Stack, list down their differences?
+142.What is the benefit of Generics in Collections Framework?
+143.Why Collection doesn’t extend Cloneable and Serializable interfaces?
+144.Why Map interface doesn’t extend Collection interface?
+145.Why Iterator don’t have a method to get next element directly without moving the cursor?
+146.Can we use any class as Map key?
+147.What are different Collection views provided by Map interface?
+148.How to decide between HashMap and TreeMap?
+149.What are similarities and difference between ArrayList and Vector?
+150.What is difference between Array and ArrayList? When will you use Array over ArrayList?
+151.Which collection classes provide random access of its elements?
+152.Which collection classes are thread-safe?
+153.What is Queue and Stack, list their differences?
+154.How can we sort a list of Objects?
+155.While passing a Collection as argument to a function, how can we make sure the function will not be able to modify it?
+156.How can we create a synchronized collection from given collection?
+157.What are common algorithms implemented in Collections Framework?
+158.Why can’t we write code as List<Number> numbers = new ArrayList<Integer>();?
+159.Why can’t we create generic array? or write code as List<Integer>[] array = new ArrayList<Integer>[10];
+160.What is the advantage of Properties file?
+161.What is the advantage of the generic collection?
+162.What is hash-collision in Hashtable and how it is handled in Java?
+163.What is the default size of load factor in hashing based collection?
+164.What is the difference between the length of an Array and size of ArrayList?
+165.How to make Java ArrayList Read-Only?
+166.How to remove duplicates from ArrayList?
+167.How to reverse ArrayList?
+168.How to sort ArrayList in descending order?
+169.How to synchronize ArrayList?
+170.When to use ArrayList and LinkedList?
+171.Can you add a null element into a TreeSet or HashSet?
+172.Explain the emptySet() method in the Collections framework?
+173.Can you use any class as a Map key?
+174.Differentiate between the Singly Linked List and Doubly Linked List
+175.What is the root interface in the collection hierarchy?
+176.What is the difference between peek(), poll() and remove() method of the Queue interface?
+
+

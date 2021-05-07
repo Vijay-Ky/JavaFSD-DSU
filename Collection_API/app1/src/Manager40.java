@@ -3,7 +3,7 @@ import java.util.ListIterator;
 
 public class Manager40 {
 	public static void main(String[] args) {
-		ArrayList list=new ArrayList();
+		ArrayList list = new ArrayList();
 		list.add(90);
 		list.add(0);
 		list.add(9);
@@ -15,7 +15,7 @@ public class Manager40 {
 
 		while(lit.hasNext())
 		{
-			Object obj=lit.next();
+			Object obj = lit.next();
 			if(obj.equals(91))
 			{
 				lit.set("abc");//replacement of object

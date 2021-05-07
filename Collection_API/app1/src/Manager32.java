@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 
-public class Manager32 {
+	public class Manager32 {
 	public static void main(String[] args) {
 		ArrayList list=new ArrayList();
 		list.add(90);
@@ -14,9 +14,10 @@ public class Manager32 {
 		{
 			System.out.println(it.next());
 			it.remove();
+			System.out.println(list);
 			
 		}
-		System.out.println(list);
+			System.out.println(list);
 		
 		}
 		

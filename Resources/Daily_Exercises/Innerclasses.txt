@@ -1,0 +1,30 @@
+1.How many types of nested classes are there in java?What Are The Different Types Of Inner Classes?
+2.Can we access non-static members of outer class inside a static nested class?
+3.What are member inner classes in java?
+4.Can member inner classes have static members in them?
+5.Can we access all the members of outer class inside a member inner class?
+6.Can we declare local inner classes as static?
+7.Can we use local inner classes outside the method or block in which they are defined?
+8.Can we declare local inner classes as private or protected or public?
+9.What is the condition to use local variables inside a local inner class?
+10.What are anonymous inner classes in java?
+11.What is the main difference between static and non-static nested classes?
+12.What Are The Advantages Of Inner Classes?
+13.What Is Static Member Class?
+14.What Are Non Static Inner Classes?
+15.Can A Static Nested Class Have Access To The Enclosing Class's Non-static Methods Or Instance Variables?
+16.What Are Disadvantages Of Using Inner Classes?
+17.What Are Different Types Of Anonymous Classes?	
+18.If You Compile A File Containing Inner Class How Many .class Files Are Created And Are All Of Them Accessible In Usual Way?
+19.How To Access The Inner Class From Code Within The Outer Class?
+20.How To Create An Inner Class Instance From Outside The Outer Class Instance Code?
+21.Which Modifiers Can Be Applied To The Inner Class?
+22.Can The Method Local Inner Class Object Access Method Local Variables?
+23.Can A Method Local Inner Class Access The Local Final Variables? Why?
+24.Can A Local Class Declared Inside A Static Method Have Access To The Instance Members Of The Outer Class?
+25.Can A Method Which Is Not In The Definition Of The Superclass Of An Anonymous Class Be Invoked On That Anonymous Class Reference?
+26.Can An Anonymous Class Define Method Of Its Own?
+27.Can An Anonymous Class Implement An Interface And Also Extend A Class At The Same Time?
+28.Why can outer Java classes access inner class private members?
+29.Can a static nested class have access to the enclosing class non-static methods or instance variables?
+30.If you compile a file containing inner class how many .class files are created and what are all of them accessible in usual way?
