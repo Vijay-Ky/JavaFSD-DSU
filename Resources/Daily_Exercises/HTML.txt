@@ -1,0 +1,132 @@
+(if questions are repeated please ignore)
+1) What is HTML?
+2) What are Tags?
+3) Do all HTML tags have an end tag?
+4) What is formatting in HTML?
+5) How many types of heading does an HTML contain?
+6) How to create a hyperlink in HTML?
+7) Which HTML tag is used to display the data in the tabular form?
+8) What are some common lists that are used when designing a page?
+9) What is the difference between HTML elements and tags?
+10) What is semantic HTML?
+11) What is an image map?
+12) How to insert a copyright symbol on a browser page?
+13) How to create a nested webpage in HTML?
+14) How do you keep list elements straight in an HTML file?
+15) Does a hyperlink only apply to text?
+16) What is a style sheet?
+17) Can you create a multi-colored text on a web page?
+18) Is it possible to change the color of the bullet?
+19) Explain the layout of HTML?
+20) What is a marquee?
+21) How many tags can be used to separate a section of texts?
+22) How to make a picture of a background image of a web page?
+23) What are empty elements?
+24) What is the use of a span tag? Give one example.
+25) What is the use of an iframe tag?
+26) What are the entities in HTML?
+27) Why is a URL encoded in HTML?
+28) Does a <!DOCTYPE html> tag is a HTML tag?
+29) What is the canvas element in HTML5?
+30) What is SVG?
+31) What are the different new form element types in HTML 5?
+32) Is there any need to change the web browsers to support HTML5?
+33) Which type of video formats are supported by HTML5?
+34) Is audio tag supported in HTML 5?
+35) What is the difference between progress and meter tag?
+36) What is the use of figure tag in HTML 5?
+38) What is button tag?
+39) What is the use of details and summary tag?
+40) What is datalist tag?
+41) How are tags migrated from HTML4 to HTML5?
+42) If I do not put <!DOCTYPE html> will HTML 5 work?
+43) What is the use of the required attribute in HTML5?
+44) What are the new <input> types for form validation in HTML5?
+45) What are some of the advantages of HTML5 over its previous versions?
+46) How can we include audio or video in a webpage?
+47) Are the HTML tags and elements the same thing?
+48)What are tags and attributes in HTML?
+49) What are void elements in HTML?
+50) Inline and block elements in HTML?
+51) What is the difference between <strong>, <b> tags and <em>, <i> tags?
+52) What is the difference between <figure> tag and <img> tag?
+53) How to specify the metadata in HTML?
+54) What is the significance of <head> and <body> tag in HTML?
+55) Can we display a web page inside a web page or Is nesting of webpages possible?
+56) Is the <datalist> tag and <select> tag same?
+57) Define Image Map?
+58) What is the advantage of collapsing white space?
+59) What are Semantic Elements?
+60) What are HTML Entities?
+61) What are different types of lists in HTML?
+62) Convert the below data into Tabular format in HTML?
+63) How is Cell Padding different from Cell Spacing?
+64) How can we club two or more rows or columns into a single row or column in an HTML table?
+65) Is it possible to change an inline element into a block level element?
+66) In how many ways can we position an HTML element? Or what are the permissible values of the position attribute?
+67) In how many ways you can display HTML elements?
+68) What is the difference between “display: none” and “visibility: hidden”, when used as attributes to the HTML element.
+69) What is the difference between <meter> tag and <progress> tag?
+70) How to specify the link in HTML and explain the target attribute?
+71) What is the ‘class’ attribute in HTML?
+72) What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements?
+73) In how many ways can we specify the CSS styles for the HTML element?
+74) Difference between link tag <link> and anchor tag <a>?
+75) How to include javascript code in HTML?
+76) When to use scripts in the head and when to use scripts in the body?
+77) What are forms and how to create forms in HTML?
+78) How to handle events in HTML?
+79) Define multipart form data?
+80) Is drag and drop possible using HTML5 and how?
+81) Difference between SVG and Canvas HTML element?
+82) What type of audio files can be played using HTML?
+83) What is the difference between HTML elements and tags?
+84) What are Attributes and how do you use them?
+85) When are comments used in HTML?
+86) What are the HTML tags used to display the data in the tabular form?
+87) How to create a Hyperlink in HTML?
+88) Name some common lists that are used when designing a page.
+89) What is semantic HTML?
+90) How to create a nested webpage in HTML?
+91) What is an image map?
+92) Does a hyperlink only apply to text?
+93) What is a Style Sheet?
+94) Explain the layout of HTML.
+95) What is a marquee?
+96) What are the tags used to separate a section of texts?
+97) What is the difference between DIV and SPAN in HTML?
+98) What is the purpose of using alternative texts in images?
+99) How to create a new HTML element?
+100) Is the <!DOCTYPE html> tag considered as a HTML tag?
+101) Why is a URL encoded in HTML?
+102) What is the use of an iframe tag?
+103) What are the entities in HTML?
+104) Can you create a multi-colored text on a web page?
+105) How to make a picture of a background image of a web page?
+106) What is the use of a span tag? Explain with example.
+107) What is the advantage of collapsing white space?
+108) Is there any way to keep list elements straight in an HTML file?
+109) Explain The Key Differences Between LocalStorage And SessionStorage Objects.
+110) When is it appropriate to use frames?
+111) How to insert a picture into a background image of a web page?
+112) What happens if you open the external CSS file in a browser?
+113) What is the hierarchy that is being followed when it comes to style sheets?
+114) How do you create text on a webpage that allows you to send an email when clicked?
+115) How are active links different from normal links?
+116) What are the different tags to separate sections of text?
+117) Are there instances where the text will appear outside of the browser?
+118) Write an HTML table tag sequence that outputs the following:
+119) What is the advantage of grouping several checkboxes together?
+120) What happens if there is no text between the tags? Does this affect the display of the HTML file?
+121) What are the limits of the text field size?
+122) What is the relationship between the border and rule attributes?
+123) What is SVG?
+124) What is button tag?
+125) List the media types and formats supported by HTML.
+126) What is Cell Spacing and Cell Padding?
+127) What is difference between HTML and XHTML?
+128) How many types of CSS can be included in HTML?
+129) What are logical and physical tags in HTML?
+130) How can you apply JavaScript to a web page?
+
+
