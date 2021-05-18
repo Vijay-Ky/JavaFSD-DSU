@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700i|Yesteryear");
+/* 
+text-align
+text-indent
+*/
+body {
+  font-family: "Roboto", sans-serif;
+  /* text-align: right; */
+}
+.main {
+  font-family: "Yesteryear", cursive;
+  text-align: center;
+}
+.subheading {
+}
+.one {
+  text-indent: 10rem;
+}
+.two {
+  text-align: left;
+}

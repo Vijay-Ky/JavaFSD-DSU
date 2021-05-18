@@ -1,0 +1,17 @@
+/*  Horizontal Centering
+*/
+body {
+  text-align: center;
+}
+.block {
+  background: blue;
+  color: white;
+  width: 150px;
+  margin: 20px auto;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+.inline {
+  background: red;
+  color: white;
+}

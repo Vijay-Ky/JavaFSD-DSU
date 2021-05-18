@@ -128,5 +128,285 @@
 128) How many types of CSS can be included in HTML?
 129) What are logical and physical tags in HTML?
 130) How can you apply JavaScript to a web page?
+131.What are some of the advantages of HTML5 over its previous versions?
+132.How can we include audio or video in a webpage?
+132.Are the HTML tags and elements the same thing?
+133.What are tags and attributes in HTML?
+134.What are void elements in HTML?
+135.What is the difference between <strong>, <b> tags and <em>, <i> tags?
+136.What is the difference between <figure> tag and <img> tag?
+137.How to specify the metadata in HTML?
+138.What is the significance of <head> and <body> tag in HTML?
+139.Is the <datalist> tag and <select> tag same?
+140.Can we display a web page inside a web page or Is nesting of webpages possible?
+141.Define Image Map?
+142.What is the advantage of collapsing white space?
+143.What are Semantic Elements?
+144.What are HTML Entities?
+145.What are different types of lists in HTML?
+146.Convert the below data into Tabular format in HTML?
+147.How is Cell Padding different from Cell Spacing?
+148.How can we club two or more rows or columns into a single row or column in an HTML table?
+149.Is it possible to change an inline element into a block level element?
+150.In how many ways can we position an HTML element? Or what are the permissible values of the position attribute?
+151.In how many ways you can display HTML elements?
+152.What is the difference between “display: none” and “visibility: hidden”, when used as attributes to the HTML element.
+153.When we use the attribute “visibility:hidden” for an HTML element then that element will be hidden from the webpage but still takes up space. Whereas, if we use the “display: none” attribute for an HTML element then the element will be hidden, and also it won’t take up any space on the webpage.
+154.What is the difference between <meter> tag and <progress> tag?
+155.How to specify the link in HTML and explain the target attribute?
+156.What is the ‘class’ attribute in HTML?
+157.What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements?
+158.In how many ways can we specify the CSS styles for the HTML element?
+159.Difference between link tag <link> and anchor tag <a>?
+160.How to include javascript code in HTML?
+161.When to use scripts in the head and when to use scripts in the body?
+162.What are forms and how to create forms in HTML?
+163.How to handle events in HTML?
+164.Define multipart form data?
+165.Is drag and drop possible using HTML5 and how?
+166.Difference between SVG and Canvas HTML element?
+167.What type of audio files can be played using HTML?
+168.What are the parts of the HTML page?
+169.What do you mean by Tags?
+170.Do all HTML tags are written in a pair?
+171.What are the list types available in HTML?
+172.Give the example for putting a comment on the HTML page?
+173.How to insert the copyright symbol in the HTML file?
+174.How to apply Hyperlink in an HTML page?
+175.How to change the font colour on the HTML page?
+176.How to create an email enable text on the web page?
+177.How to write the paragraph on the HTML page?
+178.How will you make the image as the background of the web pages?
+179.What are the frames?
+180.Which new tags are included in the HTML5?
+181.Which browser supports HTML5?
+182.What is the <figure> in the HTML5?
+183.What is the Canvas element in the HTML?
+184.What are the storage types of HTML5?
+185.What do you mean by Application Cache in HTML5?
+186.Explain the input types of HTML5 for forms?
+187.What are applets?
+188.Applets program are written in which language?
+188.How can we get the geographic position of a user in HTML5?
+189.What do you mean by HTML attribute?
+190.What is the extension for the HTML page?
+191.What are the different types of heading format supported by HTML?
+192.How we use JavaScript with HTML?
+193.What is the Get and Post Method?
+194.Which editor is used for creating the HTML pages?
+195.What is Longdesc in HTML?
+196.How to create a table in HTML?
+197.What are the web sockets?
+198.What is the SPAN tag is used for?
+199.What are cell spacing and cell padding?
+200.What are the Internationalization Attributes for XHTML Element?
+201.What do you mean by Box Model?
+202.Why we use the Embed tag?
+203.What are the different new form element types provided by HTML5?
+204.Explain the new <canvas> element in HTML5?
+205.Explain the difference between Canvas and SVG?
+206.Explain the differences between sessionStorage and localStorage objects in HTML5?
+207.Explain the usage of HTML5 semantic elements?
+208.Explain HTML5 Web Storage?
+209.How can you draw a straight line on a Canvas?
+210.How can an image be drawn on a Canvas?
+211.Explain a few advantages and disadvantages of HTML5?
+212.What does HTML stand for?
+213.Describe HTML.
+214.Write the basic structure of the HTML template?
+215.What is HTML5?
+216.Name some new features which were not present in HTML but are added to HTML5?
+217.What is Anchor tag and how can you open an URL into a new tab when clicked?
+218.Write an HTML code to form a table to show the below values in a tabular form with heading as Roll No., Student name, Subject Name, and values as
+219.Define Semantic elements in HTML.
+220.Define attributes in HTML tag.
+221.Can we modify the attribute’s value of the HTML tag dynamically?
+222.How can we comment in HTML?
+223.What are inline elements and block-level elements in HTML?
+224.Can we change inline elements into block-level elements?
+225.What are the different browsers that support HTML5?
+226.What are <br> tags in HTML?
+227.Explain the structure of the HTML webpage.
+228.Why Meta tags are used in HTML?
+229.Explain list elements in HTML.
+230.Define iframe in HTML.
+231.Define forms in HTML.
+232.In how many ways can a heading be written in HTML?
+233.How can we create a hyperlink in HTML?
+234.Why do we use the required attribute in HTML?
+235.How can we include Google maps on a website?
+236.What are Web Workers?
+237.What is the SVG element?
+238.Explain about Canvas.
+239.Explain new form elements in HTML5.
+240.What is Quirks mode in HTML5?
+241.What is the difference between HTML elements and tags?
+242.What are attributes and how do you use them?
+243.When should you use comments?
+244.While comments are useful, try to keep them to a minimum. Only use them when something is not quite clear enough, or else your documents will become more ‘comment’ than code!
+245.What’s the difference between a block-level element and an inline element?
+246.Do you know what these tags are used for?
+	
+p	
+span	
+a	
+button	
+strong, b	
+i	
+h1, h2, …, h6	
+br	
+Layout
+Tag	
+div	
+ul	
+ol	
+li	
+table	
+tr	
+td	
+thead	
+tbody	
+section	
+nav	
+Visual
+Tag	
+img	
+video	
+audio	
+Forms
+Tag	
+form	
+input	
+textarea	
+label	
+select	
+option	
+247.How is an HTML document structured?
+248.What do you know about HTML5?
+249.What new features were added to HTML5?
+250.Are there changes to DOCTYPE for HTML5?
+251.What browsers support HTML5?
+252.How do you apply CSS styles to a web page?
+253.How do you apply JavaScript to a web page?
+254.What is the difference between HTML elements and tags?
+255.What are Attributes and how do you use them?
+256.What is the difference between a block-level element and an inline element?
+257.When are comments used in HTML?
+258.What are the HTML tags used to display the data in the tabular form?
+259.How to create a Hyperlink in HTML?
+260.Name some common lists that are used when designing a page.
+261.What is semantic HTML?
+262.How to create a nested webpage in HTML?
+263.What is an image map?
+264.Explain the layout of HTML.
+265.What are the tags used to separate a section of texts?
+266.What is the difference between DIV and SPAN in HTML?
+267.What is the purpose of using alternative texts in images?
+268.How to create a new HTML element?
+269.Is the <!DOCTYPE html> tag considered as a HTML tag?
+270.Why is a URL encoded in HTML?
+271.hat is the use of an iframe tag?
+272.What are the entities in HTML?
+273.Can you create a multi-colored text on a web page?
+274.How to make a picture of a background image of a web page?
+275.What is the use of a span tag? Explain with example.
+276.What is the advantage of collapsing white space?
+278.Is there any way to keep list elements straight in an HTML file?
+279.Explain The Key Differences Between LocalStorage And SessionStorage Objects.
+280.When is it appropriate to use frames?
+281.How to insert a picture into a background image of a web page?
+282.What happens if you open the external CSS file in a browser?
+283.What is the hierarchy that is being followed when it comes to style sheets?
+284.How do you create text on a webpage that allows you to send an email when clicked?
+285.How are active links different from normal links?
+286.What are the different tags to separate sections of text?
+287.Are there instances where the text will appear outside of the browser?
+288.What is the advantage of grouping several checkboxes together?
+289.What happens if there is no text between the tags? Does this affect the display of the HTML file?
+290.What are the limits of the text field size?
+291.What is the relationship between the border and rule attributes?
+292.What is SVG?
+293.What is button tag?
+294.List the media types and formats supported by HTML.
+295.What is Cell Spacing and Cell Padding?
+296.What is difference between HTML and XHTML?
+297.How many types of CSS can be included in HTML?
+298.What are logical and physical tags in HTML?
+299.What is a tag?
+300.What’s the difference between ‘physical tags’ and ‘logical tags’?
+301.Should you close all of your tags?
+302.What’s an ‘attribute’?
+303.Name a few semantic tags that were introduced with HTML5.
+304.Why are some characters often displayed as boxes?
+305.How many types of headings can HTML document support?
+306.What’s the difference between ‘block’ and ‘inline’ elements?
+307.What’s XHTML?
+308.How would you group form elements?
+309.What is an ‘image map’ used for?
+310.Should you collapse white spaces?
+311.What are ‘anchor’ tags?
+312.Do all browsers support HTML5?
+313.What are ‘semantic elements’?
+314.How is data stored in HTML5?
+315.What happens if two sets of tags overlap each other?
+316.How can you input JavaScript into your website?
+317.What is an ‘application cache’?
+318.What is a ‘marquee’?
+319.What are APIs?
+320.What’s the difference between normal links and active links?
+321.What’s WebSQL?
+322.What is an ‘entity’?
+323.Does HTML5 support videos?
+324.What is the default size for a text field?
+325.What are the new features introduced in HTML5?
+326.What would happen if the HTML Document does not contain <!DOCTYPE>?
+327.What is a tag in HTML?
+328.What is the difference between HTML elements and tags?
+329.What are the various elements provided by HTML5 for media content?
+330.What are the new Form elements made available in HTML5?
+331.What is a semantic element in HTML5? Also, explain the difference between semantic and non-semantic elements?
+332.What are the various tags provided for better structuring in HTML5?
+333.How can we get the geographical position of a user in HTML5?
+334.Describe Form Input Types in HTML5?
+335.How can we retrieve the geographical position of a user using HTML5?
+336.What is HTML5 Graphics? 
+337.Explain the key differences between SVG and Canvas?
+338.How can we create a new HTML element?
+339.What is the use of Drag and Drop in HTML5?
+340.What is HTML5 Web Storage?
+341.What are the different types of Web Storage provided by HTML5?
+342.What is the need of introducing Local Storage in HTML5?
+343.Explain the key differences between localStorage and sessionStorage objects?
+344.What is the concept of Application Cache in HTML5? What are its advantages?
+345.What is a Manifest file?
+346.What is the difference between HTMl5 Application cache and regular HTML browser cache?
+347.What is a Web Worker? How does it work?
+348.How does a Web worker work?
+349.What are the new attributes provided in HTML5 for <form>?
+350.What is output element in HTML5?
+351.What are the new attributes provided in HTML5 for <input> element?
+352.What is the major difference between, Transitional and Strict doctype?
+353.What is Audio Tag in HTML 5? What are its attributes>
+354.What is the use of <fieldset> tag in HTML5?
+355.What are the HTML tags which get deprecated in HTML5?
+356.What is a meter tag? What is the difference between progress tag and a meter tag?
+357.Why do we need HTML5 Server-Sent Events?
+358.What does a DOCTYPE do?
+359.How do you serve a page with content in multiple languages?
+360.What kind of things must you be wary of when designing or developing for multilingual sites?
+361.What are data- attributes good for?
+362.Consider HTML5 as an open web platform. What are the building blocks of HTML5?
+363.Describe the difference between a cookie, sessionStorage and localStorage.
+364.Describe the difference between <script>, <script async> and <script defer>.
+365.Why is it generally a good idea to position CSS <link>s between <head></head> and JS <script>s just before </body>? Do you know any exceptions?
+366.What is progressive rendering?
+367.Why you would use a srcset attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
+368.Have you used different HTML templating languages before?
+
+
+
+
+
+
 
 

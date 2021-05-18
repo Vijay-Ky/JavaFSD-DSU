@@ -1,0 +1,19 @@
+/* CLASS SELECTORS  */
+
+.green {
+  color: green;
+}
+.red {
+  color: red;
+  background: grey;
+}
+/*we can use id and class for the same element*/
+#title {
+  font-size: 40px;
+  color: green;
+}
+.green_lowercase
+{
+  text-transform: uppercase;
+  background-color: gray;
+}

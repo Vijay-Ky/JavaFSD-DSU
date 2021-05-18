@@ -1,0 +1,8 @@
+/*always the last rule is going to be applied*/
+p {
+  color: blue;
+}
+
+p {
+  color: red;
+}

@@ -1,0 +1,12 @@
+/*even though we have the last rule we are Specificity
+- CSS has Specificity measurement
+- so it is going to consider the class*/
+.red
+{
+  color: red;
+}
+
+p
+{
+  color: blue;
+}

@@ -1,0 +1,10 @@
+/* ELEMENT SELECTORS */
+body {
+  color: red;
+}
+
+/* Grouping SELECTORS */
+h1,
+h2 {
+  color: blue;
+}

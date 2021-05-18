@@ -1,0 +1,16 @@
+/*
+CSS BOX MODEL
+*/
+h1 {
+  background: red;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  padding-left: 25px;
+  padding-right: 50px;
+}
+p {
+  background: blue;
+  /* padding: 50px; */ /*for all the sides*/
+  /* padding: 30px 60px; */ /*top-bottom  and left-right*/
+  padding: 20px 40px 60px 10px;/*top right bottom right*/
+}

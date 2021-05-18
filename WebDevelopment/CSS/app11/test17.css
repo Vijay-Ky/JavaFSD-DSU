@@ -1,0 +1,8 @@
+/*Universal Selector has the least amount of Specificity*/
+
+p {
+  color: red;
+}
+* {
+  color: blue;
+}

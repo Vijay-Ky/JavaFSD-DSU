@@ -1,0 +1,20 @@
+/*
+BORDER-RADIUS
+Negative Margin
+*/
+/* * {
+  margin: 0;
+} */
+h1 {
+  background: red;
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 20px;/*default is rounded corner*/
+}
+p {
+  background: blue;
+  padding: 20px;
+  border: 13px solid green;
+  border-radius: 50%;/*kind of oval shape*/
+  margin-top: -100px;
+}

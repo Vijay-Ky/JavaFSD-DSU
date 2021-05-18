@@ -1,0 +1,30 @@
+/*
+line-height
+letter-spacing
+word-spacing
+text-transform
+text-decoration;
+*/
+a {
+  font-size: 40px;
+  text-decoration: none;/*to get rid of the underline for the link*/
+}
+body {
+  text-transform: uppercase;
+}
+h1 {
+  text-transform: lowercase;
+  text-decoration: line-through;
+}
+.one {
+  line-height: 0.5em;
+}
+.two {
+  letter-spacing: 5px;
+  text-decoration: overline;
+  line-height: 2rem;
+}
+.three {
+  word-spacing: 20px;
+  text-decoration: underline;
+}

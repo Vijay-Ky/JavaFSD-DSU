@@ -1,0 +1,9 @@
+/*even though the div is the child of the body*/
+body
+{
+	color: red;
+}
+div
+{
+	color: green;
+}

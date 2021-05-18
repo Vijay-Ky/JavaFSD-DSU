@@ -1,0 +1,16 @@
+/* Percent Values - RELATIVE */
+/*
+- Percent Values depends on the parent element
+- here outer is the parent and inner is the child
+- if you change the outer then inner also will be affected */
+.outer {
+  width: 400px;
+  height: 200px;
+  background: blue;
+}
+
+.inner {
+  width: 100%;
+  height: 50%;  /*50% of the parent element*/
+  background: red;
+}

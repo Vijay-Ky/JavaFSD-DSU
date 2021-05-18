@@ -1,0 +1,13 @@
+/*Inheritance is going to work unless it has its own specific style*/
+body
+{
+	color: red;
+}
+div
+{
+	color: green;
+}
+h2
+{
+	color: blue;
+}

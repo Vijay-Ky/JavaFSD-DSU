@@ -1,0 +1,11 @@
+/* ID  selector*/
+/*should be same as the id name for the element*/
+
+ #title {
+  color: green;
+  background: black;
+}
+#subheading {
+  color: red;
+  background: gray;
+}

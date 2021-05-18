@@ -1,0 +1,369 @@
+1. What is CSS ?
+2.What is the origin of CSS ?
+3.What are the different variations of CSS ?
+4.What are the limitations of CSS ?
+5.What are the advantages of CSS ?
+6.What are CSS frameworks?
+7.How block elements can be centered with CSS1?
+8.Who maintains the CSS specifications?
+9.In how many ways can a CSS be integrated as a web page?
+10.What benefits and demerits do External Style Sheets have? 
+11.Discuss the merits and demerits of Embedded Style Sheets?
+12.Differentiate logical tags from physical tags?
+13.Differentiate Style Sheet concept from HTML?
+14.Describe ‘ruleset’?
+15.Comment on the Case-sensitivity of CSS ?
+16.Enlist the various fonts’ attributes?
+17.Why is it easy to insert a file by importing it?
+18.What is the usage of Class selector?
+19.Differentiate Class selector from ID selector?
+20.Can more than one declaration be added in CSS?
+21.What is Pseudo-elements ?
+22.How to overrule underlining Hyperlinks?
+23.What happens if 100% width is used along with floats all across the page?
+24.Can default property value be restored through CSS? If yes, how?
+25.Enlist the various Media types used?
+26.What is CSS Box Model and what are its elements?
+27.What is contextual selector?
+28.Compare RGB values with Hexadecimal color codes ?
+29.Define Image sprites with context to CSS ?
+30.Compare Grouping and Nesting in CSS ?
+31.How can the dimension be defined of an element ?
+32.Define float property of CSS?
+33.How does Z index function?
+34.What is graceful degradation?
+35.What is progressive enhancement?
+36.How can backward compatibility be designed in CSS?
+37.Why is @import only at the top?
+38.Which among the following is more precedent: CSS properties or HTML procedures?
+39.What is Inline style?
+40.How comments can be added in CSS?
+41.Define Attribute Selector ?
+42.Define property?
+43.What is Alternate Style Sheet?
+44.Are quotes mandatory in URL’s?
+45.What is at-rule?
+46.How can CSS be cascaded to mix with user’s personal sheet?
+47.What are the advantages of using CSS?
+48.What are the limitations of CSS?
+49.How to include CSS in the webpage?
+50.What are the different types of Selectors in CSS?
+51.What is a CSS Preprocessor? What are Sass, Less, and Stylus? Why do people use them?
+52.What is VH/VW (viewport height/ viewport width) in CSS?
+53.Difference between reset vs normalize CSS?. How do they differ?
+54.What is the difference between inline, inline-block, and block?
+55.How do you test the webpage in different browsers?
+56.What is a Pseudo element? What is pseudo-class?
+57.How do you specify units in the CSS?. What are the different ways to do it?
+58.Does margin-top or margin-bottom have an effect on inline elements?
+59.Explain CSS position property?
+60.What does DOM reflow occur?
+61.Different Box Sizing Property?
+62.How to center align a div inside another div?
+63.Can you name the four types of @media properties?
+64.What is the grid system?
+65.What are the different ways to hide the element using CSS?
+66.What does the :root pseudo-class refer to?
+67.What does Accessibility (a11y) mean?
+68.How do I restore the default value of a property?
+69.Difference between CSS grid vs flexbox?
+70.How does Calc work?
+71.What do CSS Custom properties variables mean?
+72.What is the difference between CSS variables and preprocessor(SASS, LESS, Stylus) variables?
+73.What does * { box-sizing: border-box; } do? What are its advantages?
+74.What does important mean in CSS?
+75.What is specificity? How to calculate specificity?
+76.What is progressive rendering? How do you implement progressive rendering in the website?. What are the advantages of it?
+77.What are the advantages of using translate() instead of absolute position?
+78.How to determine if the browser supports a certain feature?
+79.What is CSS?
+80.What is the origin of CSS?
+81.What are the different variations of CSS?
+82.How can you integrate CSS on a web page?
+83.What are the advantages of CSS?
+84.What are the limitations of CSS?
+85.What are the CSS frameworks?
+86.Why background and color are the separate properties if they should always be set together?
+87.What is Embedded Style Sheet?
+88.What are the advantages of Embedded Style Sheets?
+89.What is a CSS selector?
+90.Name some CSS style components.
+91.What is the use of CSS Opacity?
+92.Explain universal selector.
+93.Which command is used for the selection of all the elements of a paragraph?
+94.What is the use of % unit?
+95.Name the property used to specify the background color of an element.
+96.Name the property for controlling the image repetition of the background.
+97.Name the property for controlling the image position in the background.
+98.Name the property for controlling the image scroll in the background.
+99.What is the use of ruleset?
+100.What is the difference between class selectors and id selectors?
+101.What are the advantages of External Style Sheets?
+102.What is the difference between inline, embedded and external style sheets?
+103.What is RWD?
+104.What are the benefits of CSS sprites?
+105.What is the difference between logical tags and physical tags?
+106.What is the CSS Box model and what are its elements?
+107.What is the float property of CSS?
+108.How to restore the default property value using CSS?
+109.What is the purpose of the z-index and how is it used?
+110.Explain the difference between visibility: hidden and display: none?
+111.What do you understand by W3C?
+112.What is tweening?
+113.What is the difference between CSS2 and CSS3?
+114.What is the full form of CSS? 
+115.Why was CSS developed?
+116.What are the major versions of CSS?
+117.What are the different ways you could integrate CSS into your HTML page?
+118.What is the meaning of cascading? How do style sheets cascade?
+119.What are the advantages of using CSS?
+120.What are the disadvantages of using CSS?
+121.Name a few prominent CSS frameworks.
+122.What is the difference between the usage of an ID and a Class?
+123.What is the RGB stream?
+124.Explain the CSS Box Model and its different elements.
+125.What is the z-index in CSS? 
+126.What are CSS Sprites? 
+127.Mention a few benefits of using CSS Sprites.
+128.What are pseudo-elements in CSS?
+129.How will you target an h2 and h3 with the same styling?
+130.What is the float property used for in CSS?
+131.What are the different modules used in the current version of CSS?
+132.What are the different media types allowed by CSS?
+133.What are the different units used in CSS?
+134.How do you control image repetition using CSS?
+135.What is the general nomenclature of writing CSS?
+136.What will this piece of CSS code do to an element? .container { margin: 0 auto; }
+137.What is the overflow property in CSS used for?
+138.What is the property that is used for controlling image-scroll?
+139.What is responsive web design?
+140.What is the difference between {visibility: hidden} and {display: none}? 
+141.Explain the concept of specificity in CSS.
+142.What are the various font-related attributes in CSS?
+143.What is the use of box-shadow in CSS?
+144.What are contextual selectors?
+145.How would you style an image or element to have rounded corners?
+146.What is CSS flexbox?
+147.How does a browser determine what elements match a CSS selector?
+148.What is CSS?
+149.What are the different variations of CSS?
+150.What are the benefits of using CSS?
+151.What are the disadvantages of CSS?
+152.What is meant by CSS frameworks?
+153.Give a few examples of modules found in the present version of CSS.
+154.What is the difference between CSS2 and CSS3?
+155.Name a few CSS style components
+156.How can image repetition of the backup be controlled?
+157.What is the use of the background-position property?
+158.Which property controls the image scroll in the background?
+159.Image scroll in the background can be controlled using the background-scroll property.
+160.Why should background and color be used as separate properties?
+161.How to center block elements using CSS1?
+162.How to maintain the CSS specifications?
+163.What are the ways to integrate CSS as a web page?
+164.What are the external style sheets?
+165.What is embedded style sheets?
+166.These are the sheets where style sets for the entire HTML document are defined in a single place. For doing this, the style sheet information under the style tags should be embedded into an HTML document.
+167.What are the advantages and disadvantages of using external style sheets?
+168.What are the advantages and disadvantages of embedded style sheets?
+169.What is the meaning of the CSS selector?
+170.What are the media types allowed by CSS?
+171.What is the ruleset?
+172.How case-sensitive is CSS?
+173.What is a declaration block?
+174.What are the different font attributes available?
+175.How does importing a file make it easy to insert?
+176.What is the difference between physical and logical tags?
+177.How does the style sheet concept differ as compared to HTML?
+178.Is it possible to add multiple declarations in CSS?
+179.What are pseudo-elements?
+180.What is Tweening?
+181.What are CSS counters?
+182.What is meant by a universal selector?
+183.How to select all the elements of a paragraph?
+184.How are percentage values decoded in CSS?
+185.What is RWD?
+186.What is the float property of CSS?
+187.What is the difference between visibility: hidden and display:none?
+188.What is the difference between the class selector and ID selector?
+189.What is CSS?
+190.Name all the modules which are used in the current version of CSS.
+191.Distinguish between CSS2 and CSS3.
+192.Cite different types of CSS.
+193.Why is the external style sheet useful?
+194.What are the uses of an embedded style sheet?
+195.How to use CSS selector?
+196.Explain the concept of Tweening.
+197.Define CSS image scripts.
+198.Explain the term Responsive web design.
+199.What are CSS counters?
+200.What is CSS specificity?
+201.How can we calculate specificity?
+201.How do we make a rounded corner by using CSS?
+202.How will you add border images to an HTML element?
+203.What are gradients in CSS?
+204.What is CSS flexbox?
+205.Write all the properties of the flexbox.
+206.How to align image vertically in a division that spans vertically on the whole webpage?
+207.What is the difference between padding and margin?
+208.What is the use of the Box Model in CSS?
+209.How can we add icons to the web page?
+210.What is a CSS pseudo-class?
+211.Explain the concept of pseudo-elements in CSS.
+212.What is CSS opacity?
+213.Write all the position states used in CSS.
+214.What are navigation bars in CSS?
+215.What are the differences between relative and absolute in CSS?
+216.Define ‘important’ declarations used in CSS.
+217.Differentiate between inline and block element.
+218.How is the concept of inheritance applied in CSS?
+219.Differentiate between the ID and class.
+220.Explain what elements will match each of the following CSS selectors:
+1.	div, p
+2.	div p
+3.	div > p
+4.	div + p
+5.	div ~ p
+221.Explain the meaning of each of these CSS units for expressing length:
+•	cm
+•	em
+•	in
+•	mm
+•	pc
+•	pt
+•	px
+222.Given the following HTML:
+<div id="page">
+  <h1>Heading Title</h1>
+  <h2>Subheading Title</h2>
+  <h2>Subheading Title</h2>
+  <h1>Heading Title</h1>
+  <h2>Subheading Title</h2>
+  <h1>Heading Title</h1>
+</div>
+How could you use CSS to achieve the following automatic numbering:
+1) Heading Title
+1.1) Subheading Title
+1.2) Subheading Title
+
+2) Heading Title
+2.1) Subheading Title
+
+3) Heading Title
+223.Explain the CSS “box model” and the layout components that it consists of.
+224.Have you played around with the new CSS Flexbox or Grid specs? 
+225.Explain the usage of "table-layout" property 
+226.How does CSS actually work (under the hood of browser)?
+227.How is responsive design different from adaptive design?
+228.What does Accessibility (a11y) mean? 
+229.What is a Mixin and how to use on?
+230.What's the difference between SCSS and Sass?
+231.What's the difference between a relative, fixed, absolute and statically positioned element?
+232.Explain the three main ways to apply CSS styles to a web page.
+233.Could you describe the different kinds of selectors?
+234.Explain the three main ways to target elements.
+235.How do you target something inside or around another element?
+236.What are pseudo elements and what are they used for?
+237.What are pseudo classes and what are they used for?
+238.What are attributes and how are they used?
+239.Can you describe the rules around specificity?
+240.What’s your preferred way of sizing fonts?
+241.What are web safe fonts and fallback fonts?
+242.How would you use media queries in a mobile-first approach?
+243.How do you handle browser differences in your user base?
+244.Do you use any tools for browser support?
+245.Have you used Flexbox & CSS Grid before? What are the differences between them?
+246.Do you use any CSS preprocessors, and which do you prefer?
+247.What is file splitting and why should you use it?
+248.How you decide to split them up is up to you, but it can be useful to separate files by component. For example, you can have all your button styles in a file called _buttons.scss or all your header-specific styles in a file called _header.scss. Then, in your main file, say _app.scss, you can import those files by writing @import 'buttons';
+249.What are variables used for?
+250.What is the “Box Model” in CSS? Which CSS properties are a part of it?
+251.What are the various techniques for clearing floats?
+252.What are sprites and why would use them? How do you go about creating them? What are possible alternatives to sprites?
+253.What are some accessibility concerns that come up in CSS?
+254.What is the difference between inline, inline-block, and block?
+255.What tools do you use for cross-browser testing?
+256.Part of the job of front end design is making sure things work everywhere they can (based on decided-upon support). You don’t have to love it, but you can’t hate it. “This right here, this is the job. What kind of work were you expecting?”
+257.What are some of your favorite web design workflow tools?
+258.What code editor to they like? Where do they go for inspiration? What experience with version control do they have? What was QA like where they have worked? Support? What different deployment methods have they worked with? Do they know Photoshop or another visual design software alternative? Are the comfortable with the terminal?
+259.Say you found a rendering problem on one of your sites in Internet Explorer 8, which you have decided you are supporting. How would you approach fixing it?
+260.What is responsive design all about?
+261.Have you ever worked with a grid layout? What are your thoughts on that?
+262.Why did they need a grid? How did they build the grid? Was it home grown or did they use a grid tool? Did they like the grid tool? What kind of class names did they use? Did they go mobile-first or desktop-first? Was a help or a hinderance? Do they reach for the grid automatically on any project?
+263.What are the benefits of SVG?
+264.What Is The Difference Between Id And Class?
+265.Can I Include Comments In My Style Sheet?
+266.Is There Anything That Can T Be Replaced By Style Sheets?
+267.How Can I Make A Page Look The Same In E.g. Ns And Msie ?
+268.What Are Pseudo-elements?
+269.How Do I Write My Style Sheet So That It Gracefully Cascades With User S Personal Sheet ?
+270.You can help with this by setting properties in recommended places. Style rules that apply to the whole document should be set in the BODY element -- and only there. In this way, the user can easily modify document-wide style settings.
+271.What Is Property?
+272.What Can Be Done With Style Sheets That Can Not Be Accomplished With Regular Html?
+273.How Do I Quote Font Names In Quoted Values Of The Style Attribute?
+274.Are Style Sheets Case Sensitive?
+275.What Is Cascade?
+276.What Is Important Declaration?
+277.What Is Css Declaration?
+278.What Is Class Selector?
+279.What Is Selector?
+280.What Is Css Rule At-rule ?
+281.What Does The Cascading In Cascading Style Sheets Mean?
+282.Why Use Style Sheets?
+283.How Do I Get Rid Of The Gap Under My Image?
+284.As A Reader, How Can I Make My Browser Recognize My Own Style Sheet?
+285.How Do I Design For Backward Compatibility Using Style Sheets?
+286.What Are Pseudo-classes?
+287.Can Style Sheets And Html Stylistic Elements Be Used In The Same Document?
+288.Can Css Be Used With Other Than Html Documents?
+289.Some Examples Of Good And Bad Coding. What Is Wrong With This?
+290.How To Use Css To Separate Content And Design?
+291.Why Was The Decision Made To Make Padding Apply Outside Of The Width Of A Box, Rather Than Inside, Which Would Seem To Make More Sense?
+292.Why Call The Subtended Angle A Pixel, Instead Of Something Else (e.g. Subangle)?
+293.How Do I Eliminate The Blue Border Around Linked Images?
+294.Which Set Of Definitions, Html Attributes Or Css Properties, Take Precedence?
+295.What Are Inline, Block, Parent, Children, Replaced And Floating Elements?
+296.How Do I Have A Fixed (non-scrolling) Background Image?
+297.What Is A Style Sheet?
+298.What Is Inline Style? How To Link?
+299.Why Do Style Sheets Exist?
+300.What Are Style Sheets?
+301What Is Css Rule Ruleset?
+302.What Is Embedded Style? How To Link?
+303.What Is Id Selector?
+304.What are the three main ways to add CSS to a webpage? Describe the advantages and disadvantages of each method.
+305.What are CSS media queries and what are they used for?
+306.What is a CSS preprocessor? Would you recommend using one for this project?
+307.List the basic layout components of the CSS box model with a brief description for each.
+308.How would you implement the basic layout components of the box model in CSS? Give an example.
+309.Give an example of how you would use counter-increment and counter-reset in CSS to create automatic numbering within a webpage.
+310.Describe the following common CSS units of length: cm, em, in, mm, pc, pt, and px.
+311.What are CSS vendor prefixes? Can you name some of the more common ones that you're familiar with?
+312.How do you define a pseudo class in CSS? What are they used for?
+313.How would you select all the PDF links in the code block below with a single line of code?
+314.What is CSS selector specificity and how does it work?
+315.What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
+316.Describe floats and how they work.
+317.Describe z-index and how stacking context is formed.
+318.Describe Block Formatting Context (BFC) and how it works.
+319.What are the various clearing techniques and which is appropriate for what context?
+320.Explain CSS sprites, and how you would implement them on a page or site.
+321.How would you approach fixing browser-specific styling issues?
+322.How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?
+323.What are the different ways to visually hide content (and make it available only for screen readers)?
+324.Have you ever used a grid system, and if so, what do you prefer?
+325.Have you used or implemented media queries or mobile-specific layouts/CSS?
+326.Are you familiar with styling SVG?
+327.Can you give an example of an @media property other than screen?
+328.What are some of the "gotchas" for writing efficient CSS?
+329.What are the advantages/disadvantages of using CSS preprocessors?
+330.Describe what you like and dislike about the CSS preprocessors you have used.
+331.How would you implement a web design comp that uses non-standard fonts?
+332.Explain how a browser determines what elements match a CSS selector.
+333.Describe pseudo-elements and discuss what they are used for.
+334.Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
+335.What does * { box-sizing: border-box; } do? What are its advantages?
+336.What is the CSS display property and can you give a few examples of its use?
+337.What's the difference between inline and inline-block?
+338.How is responsive design different from adaptive design?
+339.Have you ever worked with retina graphics? If so, when and what techniques did you use?
