@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700i|Yesteryear");
-/* 
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap');
+/*
 GOOGLE FONTS
 */
 body {
-  font-family: "Roboto", sans-serif;
+font-family: 'Pattaya', sans-serif;
 }
-h1 {
-  font-family: "Yesteryear", cursive;
+ h1 {
+  font-family: 'KoHo', sans-serif;
 }

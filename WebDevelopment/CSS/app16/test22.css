@@ -1,4 +1,4 @@
-/* 
+/*
 HSL
 HEX values #RRGGBB
 123456789 A(10) B(11) C(12) D(13) E(14) F(15)
@@ -9,10 +9,10 @@ HEX values #RRGGBB
 
 #first {
   color: #ff0000;
-  background: #000;
+  background: #aa0000;
 }
 #second {
-  color: #fff;
+  color: #fff000;
   background: #00ff00;
 }
 #three {
@@ -21,5 +21,5 @@ HEX values #RRGGBB
 }
 #four {
   color: #f234ad;
-  background: #222;
+  background: #555;
 }

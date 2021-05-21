@@ -5,6 +5,10 @@ rem - RELATIVE depends on root
 - rem values depends on the root element value i,e html
 - the default is  16px for html element
 */
+html
+{
+  font-size: 40px;
+}
 
 div {
   font-size: 40px;

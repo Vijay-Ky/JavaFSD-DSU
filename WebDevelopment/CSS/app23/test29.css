@@ -3,7 +3,7 @@ font-stack generic-family
 serif, sans-serif, cursive, fantasy, monospace
 */
 body {
-  font-family: Helvetica;/*descrbes the font family for an element*/
+  font-family: helvetica;/*descrbes the font family for an element*/
 }
 h1 {
   font-family: Verdana;

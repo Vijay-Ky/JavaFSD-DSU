@@ -7,7 +7,7 @@ text-decoration;
 */
 a {
   font-size: 40px;
-  text-decoration: none;/*to get rid of the underline for the link*/
+  text-decoration: none; /*to get rid of the underline for the link*/
 }
 body {
   text-transform: uppercase;
@@ -17,12 +17,12 @@ h1 {
   text-decoration: line-through;
 }
 .one {
-  line-height: 0.5em;
+  line-height: 1.5em;
 }
 .two {
   letter-spacing: 5px;
   text-decoration: overline;
-  line-height: 2rem;
+  line-height: 1rem;
 }
 .three {
   word-spacing: 20px;

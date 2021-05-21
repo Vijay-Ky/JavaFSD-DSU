@@ -1,0 +1,6 @@
+a {
+  font-size: 60px;
+  background: red;
+  display: inline-block; /* without inline-block
+  /*display: inline-block;*/ /*with inline block*/
+}

@@ -1,0 +1,27 @@
+/* 
+display:none
+opacity:0
+visibility:hidden;
+*/
+
+div {
+  background: blue;
+  margin: 10px;
+  color: red;
+}
+.none {
+  display: none;
+}
+
+.opacity {
+  opacity: 1;
+}
+.opacity-5 {
+  opacity: 0.5;
+}
+.opacity-0 {
+  opacity: 0;
+}
+.visibility {
+  visibility: hidden;
+}
