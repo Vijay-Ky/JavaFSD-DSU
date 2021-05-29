@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>Tea Station</title>
+
     <!-- font awesome -->
     <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.css" />
-
-    <link rel="stylesheet" href="./styles.css" />
-    <title>Tea Station</title>
+    <!-- custome css -->
+    <link rel="stylesheet" href="./styles.css"/>
   </head>
   <body>
     <!-- nav button -->
@@ -24,10 +25,10 @@
         </span>
       </div>
       <ul class="nav-items">
-        <li> <a href="index.html" class="nav-link">home</a></li>
-        <li> <a href="skills.html" class="nav-link">skills</a></li>
-        <li> <a href="about.html" class="nav-link">about</a></li>
-        <li> <a href="products.html" class="nav-link">products</a></li>
+        <li> <a href="./index.html" class="nav-link">home</a></li>
+        <li> <a href="./skills.html" class="nav-link">skills</a></li>
+        <li> <a href="./about.html" class="nav-link">about</a></li>
+        <li> <a href="./products.html" class="nav-link">products</a></li>
       </ul>
     </nav>
   <!-- header -->
@@ -35,7 +36,7 @@
     <div class="banner">
       <h3 class="banner-subtitle">Over one hundred flavours of tea</h3>
       <h1 class="banner-title">specially crafted tea</h1>
-      <a href="skills.html" class="banner-btn">explore</a>
+      <a href="./skills.html" class="banner-btn">explore</a>
     </div>
   </header>
   <!-- end header -->
@@ -81,17 +82,17 @@
       </article>
   <!--end single skill  -->
   </section>
-
+    <!-- end of skills section -->
+    <!-- about  -->
   <section class="about">
     <div class="section-center clearfix">
       <!-- first column -->
       <article class="about-img">
         <div class="about-picture-container">
           <img src="./images/about-bcg.jpg" alt="tea kettle"
-          class="about-pictures"/>
+          class="about-picture"/>
         </div>
       </article>
-        </div>
         <!-- second column -->
      <article class="about-info">
        <!-- section title -->
@@ -100,11 +101,9 @@
          <h2 class="section-title">tea station</h2>
        </div>
        <!-- end section title -->
-       <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-         deserunt mollit anim id est laborum.</p>
-         <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-           deserunt mollit anim id est laborum.</p>
-           <a href="about.html" class="main-btn">learn more</a>
+       <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+         <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+           <a href="./about.html" class="main-btn">learn more</a>
          </article>
        </div>
      </section>
@@ -120,8 +119,8 @@
              <h2 class="section-title text-white">our products</h2>
            </div>
            <!-- end section title -->
-           <p class="product-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-         <a href="products.html" class="main-btn">inventory</a>
+           <p class="product-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         <a href="./products.html" class="main-btn">inventory</a>
        </article>
        <!-- product inventory -->
        <article class="products-inventory clearfix">
@@ -161,7 +160,9 @@
       <div class="section-center clearfix">
         <!-- single card -->
         <article class="service-card">
-          <!-- img -->
+          <!-- img container -->
+		  <div class="service-img-container">
+			<!-- img -->
           <img src="./images/product-1.jpg" alt="single service" class="service-img"/>
           <!--service icon  -->
           <span class="service-icon">
@@ -298,6 +299,6 @@
        </p>
      </div>
     </footer>
-    <script src="app.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
