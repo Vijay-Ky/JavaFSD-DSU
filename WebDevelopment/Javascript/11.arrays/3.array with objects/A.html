@@ -1,0 +1,26 @@
+<p id="p1">initial content</p>
+<input type="button"
+       value="populate array content"
+       onclick="readArrayContent()"/>
+<script>
+    //contains multiple objects
+    //every object contains three fields
+    var elements = [
+        {firstName: "vijay", lastName: "B", age: 22},
+        {firstName: "Adam", lastName: "A", age: 25},
+        {firstName: "David", lastName: "C", age: 28},
+        {firstName: "Johny", lastName: "sins", age: 27}
+    ];
+    function readArrayContent()
+    {
+        var str = "";
+        var element;
+        for(var i = 0; i < elements.length; i++)
+        {
+            element = elements[i];
+            str += element.firstName + ", " + 
+            element.lastName + ", " + element.age + "<br/>";
+        }
+        document.getElementById("p1").innerHTML = str;
+    }
+</script>

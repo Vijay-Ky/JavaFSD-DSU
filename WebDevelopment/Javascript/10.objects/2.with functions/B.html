@@ -1,0 +1,27 @@
+<form>
+    FirstName : <input type="text" name="firstName"/></br> 
+    LastName : <input type="text" name="lastName"/></br> 
+    <input type="button" value="Print Object" onclick="printObject()"/>  
+    <p id="data">intial data</p>       
+</form>
+<script>
+    function printObject()
+    {
+        var myForm = document.forms[0];
+        var firstName = myForm.firstName;
+        var lastName = myForm.lastName;
+        var emp =
+        {
+            firstName: firstName.value,
+            lastName: lastName.value,
+            fullName: function()
+            {
+                return this.firstName + " " + this.lastName;
+            }
+        };
+        var empData = emp.firstName + ", " +
+                      emp.lastName + ", " +
+                      emp.fullName();
+        document.getElementById("data").innerHTML = empData;
+    }
+    </script>

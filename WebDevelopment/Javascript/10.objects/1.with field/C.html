@@ -1,0 +1,35 @@
+<p id="p1"> initial data</p>
+<input type="button" value="Print Object" onclick="printObject()"/>
+
+<script>
+    function printObject()
+    {
+        //initialy contains two fields
+        var emp =
+        {
+            firstName: "vijay",
+            lastName: "kumar"
+        };
+        /*
+        var empData = 
+            emp["firstName"] + ", " +
+            emp["lastName"];
+        document.getElementById("p1").innerHTML = empData;
+        */
+        //later we can add new fields also
+        emp["age"] = 990,
+        emp["weight"] = 1000.5,
+        emp["permanent"] = true,
+        //modifying existing object
+        emp["lastName"] = "and sons"
+
+        //we can also read object content by using this particular syntax
+        var empData = 
+            emp["firstName"] + ", " +
+            emp["lastName"] + ", " +
+            emp["age"] + ", " +
+            emp["weight"] + ", " +
+            emp["permanent"];
+        document.getElementById("p1").innerHTML = empData;
+    }
+</script>   

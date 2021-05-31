@@ -1,0 +1,13 @@
+<p id="p1">intial content</p>
+<input type="button" value="populate array content" onclick="readArrayContent()"/>
+
+<script>
+    function readArrayContent()
+    {
+        //array can have any type of elements
+        var elements = [100, 20.0, true, "hello", 500, 900];
+        //document.getElementById("p1").innerHTML = elements.join("; ");
+        //document.getElementById("p1").innerHTML = elements.join(", ");
+        document.getElementById("p1").innerHTML = elements.join(" and ");
+    }
+</script>

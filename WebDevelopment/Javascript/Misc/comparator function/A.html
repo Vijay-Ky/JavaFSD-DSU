@@ -1,0 +1,11 @@
+<p id="p1">initial content</p>
+<input type="button" value="sorted letters"
+onclick="sortedLetters()">
+<script>
+    function sortedLetters()
+    {
+        const letters = ['b', 'p', 'c', 'a'];
+        const sortedLetters = letters.sort();
+        document.getElementById("p1").innerHTML = sortedLetters;
+    }
+</script>

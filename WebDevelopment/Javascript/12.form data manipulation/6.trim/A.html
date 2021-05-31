@@ -1,0 +1,34 @@
+<!-- trimmig white spaces which are before first physical characters and last physical character -->
+<form>
+    <!-- current first field reference -->
+    First Name: <input type="text" name="firstName" onblur="trim(this)"/><br/>
+    Last Name: <input type="text" name="lastName" onblur="trim(this)"/><br/>
+    Age: <input type="text" name="age" onblur="trim(this)"/><br/>
+</form>
+<script>
+    //'this' is assigning to field
+    function trim(field)
+    {
+        //read the field value firstName representing 'this'
+        var value = field.value;
+        //check the first character
+        var firstChar = value.charAt(0);
+        //if first character is whitespace
+        while(firstChar == ' ')
+        {
+            //remove that white space using substring
+            value = value.substring(1, value.legth);
+            //next character is now first character
+            //checks this in the while loop
+            firstChar = value.charAt(0);
+        }
+        var lastChar = value.charAt(value.legth - 1);
+        while(lastChar == ' ')
+        {
+            value = value.substring(0, value.legth - 1);
+            lastChar = value.charAt(value.legth - 1);
+        }
+        //trimmed value assigning back to field.value
+        field.value = value;
+    }
+</script>

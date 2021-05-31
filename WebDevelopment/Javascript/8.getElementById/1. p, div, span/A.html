@@ -1,0 +1,21 @@
+<p id="p1">Hello from p1 para</p>
+<p id="p2">Hello from p2 para</p>
+<p id="p3">Hello from p3 para</p>
+
+<script>
+    //from line 8 to 15 automatically executed without any event. bcz these statements are not part any method
+    //document is an object through the document we can refere any element.
+    var v1 = document.getElementById("p1");
+    var v2 = document.getElementById("p2");
+    var v3 = document.getElementById("p3");
+
+    //through inner HTML we can read body content of specified element.
+    alert(v1.innerHTML);
+    alert(v2.innerHTML);
+    alert(v3.innerHTML);
+</script>
+<!-- 
+    -for any element we can use this getElementById
+    -HTML loaded first, we use javascript for adding additional dyanamic functionality to an html document. for that we need to access html document, after that we can manipulate that according to our need. 
+    -if javascript loaded first, it cant identify whats an html document for what it written.
+ -->

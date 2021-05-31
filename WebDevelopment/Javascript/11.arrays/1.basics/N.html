@@ -1,0 +1,18 @@
+<p id="p1">initial content</p>
+<input type="button" value="reverse" onclick="reverseElements()"/>
+<input type="button" value="populate array content" onclick="readArrayContent()"/>
+
+<script>
+    var elements = [100, 20.0, true, "hello", 500];
+    function readArrayContent()
+    {   
+        document.getElementById("p1").innerHTML = elements.join(", ");
+    }
+    function reverseElements()
+    {
+        //to reverse the content of the array we use reverse method
+        elements.reverse();
+        //alert(element);
+        readArrayContent();
+    }
+</script>

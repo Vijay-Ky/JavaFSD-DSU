@@ -1,0 +1,17 @@
+<p id="p1">initial content</p>
+<input type="button" value="populate array content" onclick="readArrayContent()"/>
+<input type="button" value="remove last element" onclick="removeLastFromArray()"/>
+
+<script>
+    var elements = [100, 20.0, true, "hello", 500];
+    function readArrayContent()
+    {   
+        document.getElementById("p1").innerHTML = elements.join(", ");
+    }
+    function removeLastFromArray()
+    {
+        //we can remove the last element from the array 
+        elements.pop();
+        readArrayContent();
+    }
+</script>

@@ -1,0 +1,52 @@
+<form>
+    skills:
+    <input type="checkbox" name="skill" value="c" onclick="controllSkillController()"/>C &nbsp;
+    <input type="checkbox" name="skill" value="c++" onclick="controllSkillController()"/>C++ &nbsp;
+    <input type="checkbox" name="skill" value="java" onclick="controllSkillController()"/>Java &nbsp;
+    <input type="checkbox" name="skill" value="oracle" onclick="controllSkillController()"/>Oracle &nbsp;
+    <input type="checkbox" name="skill" value="python" onclick="controllSkillController()"/>Python &nbsp;
+    <input type="checkbox" name="skill" value="hadoop" onclick="controllSkillController()"/>Hadoop &nbsp;
+    <input type="checkbox" name="skill" value="php" onclick="controllSkillController()"/>PHP <br/>
+
+    <!-- through skills controller control all the skills chekcboxes -->
+    Select All skills:
+    <input type="checkbox" name="skillsController" onclick="selectAll()">
+</form>
+<script>
+    function selectAll()
+    {
+        var myForm = document.forms[0];
+        //referring skills controller
+        var skillsController = myForm.skillsController;
+        //reffering all the skills
+        var skills = myForm.skill;
+        //more than one skill is there this skill is acting as an array
+        //iteratin every skill from the array
+        for(var i = 0; i < skills.length; i++)
+        {
+            //skiilss checked status assigning with controller checked status
+            skills[i].checked = skillsController.checked;
+        }
+    }
+    function controllSkillController()
+    {
+        var myForm = document.forms[0];
+        var skillsController = myForm.skillsController;
+        var skill = myForm.skill;
+        var status = true;
+        //interating through every skill
+        //if all the skills are checked then the status remains true
+        //if anyone not checked status becomes false
+        //
+        for(var i = 0;  i < skill.length; i++)
+        {
+            if(!skill[i].checked)
+            {
+                //same status assigning to skills controller
+                status = false;
+                break;
+            }
+        }
+        skillsController.checked = status;
+    }
+</script>

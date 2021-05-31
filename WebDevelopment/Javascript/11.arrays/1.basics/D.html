@@ -1,0 +1,20 @@
+<p id="p1">initial content</p>
+<input type="button" value="populate array content" onclick="readArrayContent()"/>
+<input type="button" value="add new element" onclick="addToArray()"/>
+
+<script>
+    var elements = [100, 20.0, true, "hello", 500];
+    function readArrayContent()
+    {   
+        document.getElementById("p1").innerHTML = elements.join(", ");
+    }
+    function addToArray()
+    {
+        //adding  new  element to the array
+        //in case of javascript arrays are dynamic we can rechange the size of the array
+        //if you want to insert any new element just go for elements.length
+        //new element is adding at 6th index
+        elements[elements.length] = "420";
+        readArrayContent();
+    }
+</script>

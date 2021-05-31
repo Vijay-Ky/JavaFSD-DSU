@@ -1,0 +1,45 @@
+Check in the console
+<script>
+    var value = "hi hello and hello to all, i am saying hello from js";
+    var length = value.length;
+    console.log("given string: " + value);
+    console.log("length: " + length);
+    var i = value.indexOf('h');
+    var j = value.indexOf('h', i + 1);
+    console.log("index of first h: " + i);
+    console.log("index of second h: " + j);
+    i = value.indexOf('z');
+    //z is not available so -1
+    console.log("index of z: " + i);
+    //from right to left where h is there
+    i = value.lastIndexOf('h');
+    //from right to left after first occurance of h where second occurance h is there
+    j = value.lastIndexOf('h', i - 1);
+    console.log("index of first h from right to left: " + i);
+    console.log("index of second h from right to left: " + j);
+    i = value.indexOf('hello');
+    j = value.indexOf('hello', i + 1);
+    console.log("index of first hello " + i);
+    console.log("index of second hello " + j);
+    i = value.lastIndexOf('hello');
+    j = value.lastIndexOf('hello', i - 1);
+    k = value.lastIndexOf('hello', j - 1);
+    console.log("index of first hello from right to left:  " + i);
+    console.log("index of second hello from right to left: " + j);
+    console.log("index of third hello from right to left: " + k);
+    var c1 = value.charAt(4);
+    console.log("char at index num 4: " + c1);
+
+    c1 = value.charAt(15);
+    console.log("char at index num 15: " + c1);
+
+    //last character
+    c1 = value.charAt(value.length-1);
+    console.log("last char: " + c1);
+
+    //first argument is inclusive second is exclusive
+    var k = value.substring(0, 5);
+    console.log("string from 0 to 4 indexes " + k);
+    k = value.substring(5, 10);
+    console.log("String from 5 to 9 indexes " + k);
+</script>

@@ -1,0 +1,155 @@
+Why do we need JavaScript?
+To validate form data(customer data) before sending to the server.
+login form, registration form validation before sending to server.
+JavaScript is a programming language used to validate browser based clients.
+pre-requesits HTML, CSS, Basics of any OOP language
+-softwares-browser and editor.
+-without HTML file we cant 
+-wherever we try to write content into HTML through javascript we need to use within <script> tag.
+For output purpose
+<script>
+document.write(“hello from Javascript”);
+</script>
+Document is an object and write is a method
+<script>
+Console.log(“hello from log”);
+</script>
+Console is an object and log is a method.
+To see the log message right click on the page and select inspect
+Or
+Press cntr + shift + i
+Console.log => background messages purpose.
+<script>
+alert("hello from alert");
+alert("hello from alert");
+alert("hello from alert");
+alert("hello from alert");
+alert("hello from alert");
+alert();
+</script>
+
+Top extensions for web developers
+1.	Prettier
+Go to settings by cntrl + , and type editor.formatOnSave set true.
+2.	Brackets pair coloriser
+3.	Live server
+-	To increase the web page size press cntrl and +
+
+
+Promt usage
+<script>
+  var i = prompt("Enter your first name");
+  document.write("Your first name: " + i);
+  var j = prompt("Enter your last name");
+  document.write("<br/>Your last name: " + j);
+  var k = prompt("Enter your address");
+  document.write("<br/>Address: " + k);
+</script>
+
+We cant use HTML tags inside script tag but inside document.write(“you can have html tags here”);
+
+Confirm usage
+Confirm function used to get the confirmation from the user.
+We will get a promt with two button OK and Cancel
+Used to read the boolean value.
+
+<script>
+  var i = confirm("are you sure?");
+  document.write(i);
+</script>
+
+OnClick event
+
+<p onclick="alert()">
+  This is the Paragraph<br />
+  This is the Paragraph<br />
+  This is the Paragraph<br />
+  This is the Paragraph<br />
+</p>
+
+<div onclick="alert('message from div')">
+  content<br />
+  content<br />
+  content<br />
+  content
+</div>
+
+-we can use OnClick event for any HTML element.
+
+Onload
+only for body tag
+<body onload="alert('HTML Loaded into the browser')"></body>
+
+
+<select onchange="alert('something has changed')">
+  <option value="1">First Option </option>
+  <option value="2">Second Option </option>
+  <option value="3">Third Option </option>
+  <option value="4">Fourth Option </option>
+</select>
+
+onblur
+<input type="text" onblur="alert('not engaged')" />
+
+
+
+
+Function
+function is a keyword in javascript
+
+
+Learn JavaScript - Full Course for Beginners Notes
+List of editors to write javascript code
+1.	Sublime
+2.	Vs code
+3.	Codepen.io
+4.	Freecodecamp.org
+5.	Scrimba.com	
+
+Comments
+// is called in line comment 
+/**/ is multiline comment
+Comment wont be running.
+
+Java Script Notes From Lara
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

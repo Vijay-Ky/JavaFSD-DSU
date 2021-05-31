@@ -1,0 +1,110 @@
+<table>
+    <!-- only one table row -->
+    <tr>
+        <td>
+            Available: <br/>
+            <!-- 5 options in one dropdown -->
+            <select id="from" multiple>
+                <option value="1">Value1</option>
+                <option value="2">Value2</option>
+                <option value="3">Value3</option>
+                <option value="4">Value4</option>
+                <option value="5">Value5</option>
+            </select>
+        </td>
+        <td>
+            <input type="button" value=">>" onclick="addOptions()"/><br/>
+            <input type="button" value="<<" onclick="removeOptions()"/><br/>
+            <input type="button" value="UP" onclick="moveToUp()"/><br/>
+            <input type="button" value="DOWN" onclick="moveToDown()"/><br/>
+        </td>
+        <td>
+            <!-- no options are there -->
+            Selected <br/>
+            <select id="to" multiple></select>
+        </td>
+    </tr>
+</table>
+
+<script>
+    function addOptions()
+    {
+        //from dropdown
+    var from = document.getElementById("from");
+         //to dropdown
+    var to = document.getElementById("to");
+    //findout every option from, from dropdown
+    //there is options which return array of options.
+    //options is a property inside dropdown
+    //this property returns an array of options 
+    var fromOptions = from.options;
+    for(var i = 0; i < fromOptions.length; i++)
+    {
+        if(fromOptions[i].selected)
+        {
+            //if any option got selected then move that option to "to"
+            //removing from 'from' and adding to 'to'
+            to.add(fromOptions[i]);
+            i--;
+        }
+    }
+    }
+    function removeOptions()
+    {
+    var from = document.getElementById("from");
+    var to = document.getElementById("to");
+    var toOptions = to.options;
+    for(var i = 0; i < toOptions.length; i++)
+    {
+        if(toOptions[i].selected)
+        {
+            //if any option got selected then move that option to "from"
+            //removing from 'to' and adding to 'from'
+            from.add(toOptions[i]);
+            i--;
+        }
+    }
+    }
+    function moveToUp()
+    {
+    //from option
+    //get all the options into array
+    var from = document.getElementById("from");
+    var fromOptions = from.options;
+    if(fromOptions.length > 0 && !fromOptions[0].selected)
+    {
+        moveToUpElement(fromOptions);
+    }
+    //from option
+    var to = document.getElementById("to");
+    var toOptions = to.options;
+    if(toOptions.length > 0 && !toOptions[0].selected)
+    {
+        moveToUpElement(toOptions);
+    }
+    }
+    function moveToUpElement(allOptions)
+    {
+        //0th treated as previous
+        var preOption = allOptions[0];
+        var currentOption;
+        for(var i = 1; i < allOptions.length; i++)
+        {
+            currentOption = allOptions[i];
+            if(currentOption.selected)
+            {
+                //swapping values and text content
+                //swapping content of two options
+                var tempText = currentOption.text;
+                var tempValue = currentOption.value;
+                currentOption.text = preOption.text;
+                currentOption.value = preOption.value;
+                preOption.text = tempText;
+                preOption.value = tempValue;
+            }
+            //if option 1 is not selected
+            //option 1 is becoming previous
+            preOption = currentOption;
+        }
+    }
+</script>

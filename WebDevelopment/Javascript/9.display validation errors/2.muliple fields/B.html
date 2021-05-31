@@ -1,0 +1,74 @@
+<form action="success.html">
+    First Name:
+    <input type="text" name="firstName"/>
+    <!-- using span to display only error
+    initialy it will be empty -->
+    <span id="firstNameError"></span><br/>
+    Last Name:
+    <input type="text" name="lastName"/>
+    <span id="lastNameError"></span><br/>
+    Age:
+    <input type="text" name="age"/>
+    <span id="ageError"></span><br/>
+
+    <input type="submit" onclick="return validate()" value="submit"/>
+</form>
+
+<script>
+    function validate()
+    {
+        var thisForm = document.forms[0];
+        var firstName = thisForm.firstName;
+        var firstNameFailedStatus;
+
+        var v1 = document.getElementById("firstNameError");
+        if(firstNameFailedStatus = (firstName.value.length == 0))
+        {
+            
+            v1.style.color = "red";
+            v1.innerHTML =  "Enter First Name";
+            thisForm.firstName.focus();
+            return false;
+        }
+        //if is for printing validation errors
+        //else is for removing vaidation errors
+        else
+        {
+            v1.innerHTML="";
+        }
+        var lastName = thisForm.lastName;
+        var lastNameFailedStatus;
+        var v2 = document.getElementById("lastNameError");
+        if(lastNameFailedStatus = (lastName.value.length == 0))
+        {
+            v2.style.color = "red";
+            v2.innerHTML =  "Enter last Name";
+            thisForm.lastName.focus();
+            return false;
+        }
+        else
+        {
+            v2.innerHTML="";
+        }
+        var age = thisForm.age;
+        var ageFailedStatus;
+        var v3 = document.getElementById("ageError");
+        if(ageFailedStatus = (age.value.length == 0))
+        {
+            
+            v3.style.color = "red";
+            v3.innerHTML =  "Enter Age";
+            thisForm.age.focus();
+            return false;
+        }
+        else
+        {
+            v3.innerHTML="";
+        }
+        /*
+        if(firstNameFailedStatus || lastNameFailedStatus || ageFailedStatus)
+        {
+            return false;
+        }*/
+    }
+</script>

@@ -1,0 +1,22 @@
+<p id="p1">initial content</p>
+<!-- from which index -->
+New Element : <input type="text" id="newElement"/><br/>
+Location : <input type="text" id="location"/><br/>
+<input type="button" value="insert new element" onclick="insertNewElementAtSpecifiedLocation()"/>
+<input type="button" value="populate array content" onclick="readArrayContent()"/>
+<script>
+    var elements = [100, 20.0, true, "hello", 500];
+    function readArrayContent()
+    {   
+        document.getElementById("p1").innerHTML = elements.join(", ");
+    }
+    function insertNewElementAtSpecifiedLocation()
+    {
+         //dynamically reading 
+        var newElement = document.getElementById("newElement").value;
+        var index = document.getElementById("location").value;
+        //from this index onwards, remove 0 numberof elements, and insert this element
+        elements.splice(index, 0, newElement);
+        readArrayContent()
+    }
+</script>

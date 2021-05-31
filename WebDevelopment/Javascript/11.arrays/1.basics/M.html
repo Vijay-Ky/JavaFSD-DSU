@@ -1,0 +1,18 @@
+<p id="p1">initial content</p>
+<input type="button" value="un shift" onclick="unshifting()"/>
+<input type="button" value="populate array content" onclick="readArrayContent()"/>
+
+<script>
+    var elements = [100, 20.0, true, "hello", 500];
+    function readArrayContent()
+    {   
+        document.getElementById("p1").innerHTML = elements.join(", ");
+    }
+    function unshifting()
+    {
+        //unshift adding new element in the begginning
+        var element = elements.unshift("abc");
+        //alert(element);
+        readArrayContent();
+    }
+</script>

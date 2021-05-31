@@ -1,0 +1,17 @@
+<script>
+    test()
+    function test()
+    {
+        for(let i = 1; i <= 5; i++)
+        {
+            alert("for loop iteration:" + i );
+        }
+        alert("outside the for loop" + i);
+        /*press cntrl + shift + i and you will get error
+        Uncaught ReferenceError: i is not defined
+    at test (C.html:9)
+    at C.html:2*/
+    }
+</script>
+<!-- var is local to nearest function
+let is local to current block -->

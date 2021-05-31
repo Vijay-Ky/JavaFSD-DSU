@@ -1,0 +1,18 @@
+<p id="p1">Hello from p1 para</p>
+
+<input type="button" value="hidden element" onclick="makeHidden()"/>
+<input type="button" value="visible element" onclick="makeVisible()"/>
+
+<script>
+    function makeHidden()
+    {
+        var v1 = document.getElementById("p1");
+        //style is the CSS property
+        v1.style.visibility = "hidden";
+    }
+    function makeVisible()
+    {
+        var v1 = document.getElementById("p1");
+        v1.style.visibility = "visible";
+    }
+</script>

@@ -1,0 +1,18 @@
+<!-- one element content should be swapped with anoter element content -->
+<p id="p1">Hello from p1 para</p>
+<div id="d1">Hello from div</div>
+
+
+<input type="button" value="swap elements" onclick="swap()"/>
+
+<script>
+    function swap()
+    {
+        var v1 = document.getElementById("p1");
+        var v2 = document.getElementById("d1");
+
+        //we can change the body content by assigning new value to innerHTML
+        v1.innerHTML = v1.innerHTML.toUpperCase();
+        v2.innerHTML = v2.innerHTML.toUpperCase();
+    }
+</script>

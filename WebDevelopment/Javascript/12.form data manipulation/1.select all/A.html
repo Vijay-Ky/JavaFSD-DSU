@@ -1,0 +1,32 @@
+<form>
+    skills:
+    <input type="checkbox" name="skill" value="c"/>C &nbsp;
+    <input type="checkbox" name="skill" value="c++"/>C++ &nbsp;
+    <input type="checkbox" name="skill" value="java"/>Java &nbsp;
+    <input type="checkbox" name="skill" value="oracle"/>Oracle &nbsp;
+    <input type="checkbox" name="skill" value="python"/>Python &nbsp;
+    <input type="checkbox" name="skill" value="hadoop"/>Hadoop &nbsp;
+    <input type="checkbox" name="skill" value="php"/>PHP &nbsp;
+    
+    <!-- through skills controller control all the skills chekcboxes -->
+    Select All skills:
+    <input type="checkbox" name="skillsController" onclick="selectAll()">
+</form>
+
+<script>
+    function selectAll()
+    {
+        var myForm = document.forms[0];
+        //referring skills controller
+        var skillsController = myForm.skillsController;
+        //reffering all the skills
+        var skills = myForm.skill;
+        //more than one skill is there this skill is acting as an array
+        //iterating every skill from the array
+        for(var i = 0; i < skills.length; i++)
+        {
+            //skills checked status assigning with controller checked status
+            skills[i].checked = skillsController.checked;
+        }
+    }
+</script>
