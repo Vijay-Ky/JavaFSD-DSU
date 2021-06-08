@@ -1,28 +1,26 @@
 <form action="success.html">
-    Education:
-    <select name="education">
-        <option value="pls">please select</option>
-        <!-- <option value="pls">please select</option> -->
-        <option value="be" selected>BE</option>
-        <option value="mca">MCA</option>
-        <!-- can be in the middle this will be selected by default -->
-        
-        <option value="mba">MBA</option>
-    </select> <br/>
-    <input type="submit" value="submit" onclick="return validate()"/>
+  Education:
+  <select name="education">
+    <option value="pls">please select</option>
+    <!-- <option value="pls">please select</option> -->
+    <option value="be">BE</option>
+    <option value="mca">MCA</option>
+    <!-- can be in the middle this will be selected by default -->
+
+    <option value="mba">MBA</option>
+  </select>
+  <br />
+  <input type="submit" value="submit" onclick="return validate()" />
 </form>
 
 <script>
-    function validate()
-    {
-        var f1 = document.forms[0];
-        var education = f1.education;
-        if(education.value == "pls")
-        {
-            alert("Please select education");
-            //education[0].focus();
-            return false;
-        }   
-        return true;
+  function validate() {
+    var f1 = document.forms[0]
+    var education = f1.education
+    if (education.value == 'pls') {
+      alert('Please select education')
+      return false
     }
-    </script>
+    return true
+  }
+</script>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servlet1 Web App</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <script src="validate.js"></script>
+</head>
+<body>
+    <h1> Hello to All</h1>
+    <img src="coding-horror.png" width="720" height="200"> <br/>
+    <form action="s1">
+        First Name: <input type="text" name="firstName"/> </br>
+        Last Name: <input type="text" name="lastName"/>
+        <input type="submit" value="submit" onclick="return validateMyForm()"/>
+    </form>
+
+</body>
+</html>

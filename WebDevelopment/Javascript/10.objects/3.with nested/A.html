@@ -1,44 +1,50 @@
 <!-- javascript object inside an object -->
-<input type="button" value="Print Object" onclick="printObject()"/>  
-    <p id="data">intial data</p> 
+<input type="button" value="Print Object" onclick="printObject()" />
+<p id="data">intial data</p>
 
 <script>
-    function printObject()
-    {
-        //emp is an object
-        var emp = 
+  function printObject() {
+    //emp is an object
+    var emp = {
+      firstName: 'Vijay',
+      lastName: 'Kumar',
+      //project is another attribute
+      //and project is inner object inside emp
+      project:
+        //this is another object
         {
-            firstName: "Vijay",
-            lastName: "Kumar",
-            //project is another attribute
-            //and project is inner object inside emp
-            project:
-            //this is another object
-            {
-                title: "Home automation",
-                duration: "5 months",
-                cost: 100000
-            },
-            fullName: function()
-            {
-                return this.firstName + " " + this.lastName;
-            },
-            //get project is another function
-            //this function returns project object
-            getProject: function()
-            {
-                //this represents employee
-                return this.project.title + ", " +
-                    this.project.duration + ", " +
-                    this.project.cost;  
-            }
-        };
-        var empData = emp.firstName + ", " +
-                      emp.lastName + ", " +
-                      emp.fullName() + ", " + 
-                      emp.project.duration + ", " + 
-                      emp.project.cost + "<br/>"  + 
-                      emp.getProject();
-        document.getElementById("data").innerHTML = empData;
+          title: 'Home automation',
+          duration: '5 months',
+          cost: 100000,
+        },
+      fullName: function () {
+        return this.firstName + ' ' + this.lastName
+      },
+      //get project is another function
+      //this function returns project object
+      getProject: function () {
+        //this represents employee
+        return (
+          this.project.title +
+          ', ' +
+          this.project.duration +
+          ', ' +
+          this.project.cost
+        )
+      },
     }
+    var empData =
+      emp.firstName +
+      ', ' +
+      emp.lastName +
+      ', ' +
+      emp.fullName() +
+      ', ' +
+      emp.project.duration +
+      ', ' +
+      emp.project.cost +
+      '<br/>' +
+      emp.getProject()
+    document.getElementById('data').innerHTML = empData
+  }
 </script>

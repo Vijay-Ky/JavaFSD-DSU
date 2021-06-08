@@ -1,22 +1,28 @@
 <p id="p1">initial content</p>
 <!-- from which index -->
-From which index : <input type="text" id="from"/><br/>
+From which index : <input type="text" id="from" /><br />
 <!-- total how many number of elements should be removed -->
-Elements to be removed : <input type="text" id="total"/><br/>
-<input type="button" value="populate array content" onclick="readArrayContent()"/>
-<input type="button" value="remove above specified range of elements" onclick="removeRangeOfElementsFromArray()"/>
+Elements to be removed : <input type="text" id="total" /><br />
+<input
+  type="button"
+  value="populate array content"
+  onclick="readArrayContent()"
+/>
+<input
+  type="button"
+  value="remove above specified range of elements"
+  onclick="removeRangeOfElementsFromArray()"
+/>
 <script>
-    var elements = [100, 20.0, true, "hello", 500];
-    function readArrayContent()
-    {   
-        document.getElementById("p1").innerHTML = elements.join(", ");
-    }
-    function removeRangeOfElementsFromArray()
-    {
-         //dynamically reading 
-        var from = document.getElementById("from").value;
-        var total = document.getElementById("total").value;
-        elements.splice(from, total);
-        readArrayContent()
-    }
+  var elements = [100, 20.0, true, 'hello', 500]
+  function readArrayContent() {
+    document.getElementById('p1').innerHTML = elements.join(', ')
+  }
+  function removeRangeOfElementsFromArray() {
+    //dynamically reading
+    var from = document.getElementById('from').value
+    var total = document.getElementById('total').value
+    elements.splice(from, total)
+    readArrayContent()
+  }
 </script>

@@ -1,0 +1,15 @@
+<html>
+	<head>
+	<title>Student Registration Form</title>
+	</head>
+	<body>
+		<form action="student-checkbox-response.jsp">
+			First Name: <input type="text" name="firstname"/>
+			<br/>
+			<br/>
+			Last Name: <input type="text" name="lastname"/>
+		
+		</form>
+	</body>
+
+</html>

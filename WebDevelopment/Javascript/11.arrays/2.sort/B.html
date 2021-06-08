@@ -1,20 +1,22 @@
 <p id="p1">initial content</p>
-<input type="button" value="sort"   onclick="sortElements()"/>
-<input type="button" value="populate array content" onclick="readArrayContent()"/>
+<input type="button" value="sort" onclick="sortElements()" />
+<input
+  type="button"
+  value="populate array content"
+  onclick="readArrayContent()"
+/>
 
 <script>
-    //var elements = ["z", "v", "f", "h", "n", "i"];
-    var elements = [10, 100, 2, 7, 1, 0];
-    function readArrayContent()
-    {   
-        document.getElementById("p1").innerHTML = elements.join(", ");
-    }
-    function sortElements()
-    {
-        //to sort the elements of array
-        //default sorting is ASCII coding order
-        //sorting based on ascii not on quantity
-        elements.sort();
-        readArrayContent();
-    }
+  //var elements = ["z", "v", "f", "h", "n", "i"];
+  var elements = [10, 100, 2, 7, 1, 0]
+  function readArrayContent() {
+    document.getElementById('p1').innerHTML = elements.join(', ')
+  }
+  function sortElements() {
+    //to sort the elements of array
+    //default sorting is ASCII coding order
+    //sorting based on ascii not on quantity
+    elements.sort()
+    readArrayContent()
+  }
 </script>

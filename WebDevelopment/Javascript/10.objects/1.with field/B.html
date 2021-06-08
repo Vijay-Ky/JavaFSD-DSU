@@ -1,28 +1,30 @@
-<p id="p1"> initial data</p>
-<input type="button" value="Print Object" onclick="printObject()"/>
+<p id="p1">initial data</p>
+<input type="button" value="Print Object" onclick="printObject()" />
 
 <script>
-    function printObject()
-    {
-        //javascript object creation
-        //attributes and values
-        //javascript object also should be declared with var keyword
-        //emp variable points to javascript object
-        var emp =
-        {
-            firstName: "vijay",
-            lastName: "kumar",
-            age: 990,
-            weight: 1000,
-            permanent: true
-        };
-        //we can also read object content by using this particular syntax
-        var empData = 
-            emp["firstName"] + ", " +
-            emp["lastName"] + ", " +
-            emp["age"] + ", " +
-            emp["weight"] + ", " +
-            emp["permanent"];
-        document.getElementById("p1").innerHTML = empData;
+  function printObject() {
+    //javascript object creation
+    //attributes and values
+    //javascript object also should be declared with var keyword
+    //emp variable points to javascript object
+    var emp = {
+      firstName: 'vijay',
+      lastName: 'kumar',
+      age: 990,
+      weight: 1000,
+      permanent: true,
     }
+    //we can also read object content by using this particular syntax
+    var empData =
+      emp['firstName'] +
+      ', ' +
+      emp['lastName'] +
+      ', ' +
+      emp['age'] +
+      ', ' +
+      emp['weight'] +
+      ', ' +
+      emp['permanent']
+    document.getElementById('p1').innerHTML = empData
+  }
 </script>

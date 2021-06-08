@@ -1,16 +1,18 @@
 <p id="p1">intial content</p>
-<input type="button" value="populate array content" onclick="readArrayContent()"/>
+<input
+  type="button"
+  value="populate array content"
+  onclick="readArrayContent()"
+/>
 
 <script>
-    function readArrayContent()
-    {
-        //array can have any type of elements
-        var elements = [100, 20.0, true, "hello", 500];
-        var str = "";
-        for(var i = 0; i < elements.length; i++)
-        {
-            str += elements[i] + ", ";
-        }
-        document.getElementById("p1").innerHTML = str;
+  function readArrayContent() {
+    //array can have any type of elements
+    var elements = [100, 20.0, true, 'hello', 500]
+    var str = ''
+    for (var i = 0; i < elements.length; i++) {
+      str += elements[i] + ', '
     }
+    document.getElementById('p1').innerHTML = str
+  }
 </script>

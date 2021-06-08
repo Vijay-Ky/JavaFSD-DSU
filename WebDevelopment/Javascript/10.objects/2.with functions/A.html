@@ -1,21 +1,16 @@
-<p id="p1"> initial data</p>
-<input type="button" value="Print Object" onclick="printObject()"/>
+<p id="p1">initial data</p>
+<input type="button" value="Print Object" onclick="printObject()" />
 
 <script>
-    function printObject()
-    {
-        var emp =
-        {
-            firstName: "vijay",
-            lastName: "kumar",
-            fullName: function()
-            {
-                return this.firstName + " " + this.lastName;
-            }
-        };
-        var empData = emp.firstName + ", " +
-                      emp.lastName + ", " +
-                      emp.fullName();
-        document.getElementById("p1").innerHTML = empData;
+  function printObject() {
+    var emp = {
+      firstName: null,
+      lastName: 'kumar',
+      fullName: function () {
+        return this.firstName + ' ' + this.lastName
+      },
     }
-    </script>
+    var empData = emp.firstName + ', ' + emp.lastName + ', ' + emp.fullName()
+    document.getElementById('p1').innerHTML = empData
+  }
+</script>

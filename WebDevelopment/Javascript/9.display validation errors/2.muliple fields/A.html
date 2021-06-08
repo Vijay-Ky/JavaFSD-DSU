@@ -1,58 +1,50 @@
 <form action="success.html">
-    First Name:
-    <input type="text" name="firstName"/>
-    <!-- using span to display only error
+  First Name:
+  <input type="text" name="firstName" />
+  <!-- using span to display only error
     initialy it will be empty -->
-    <span id="firstNameError"></span><br/>
-    Last Name:
-    <input type="text" name="lastName"/>
-    <span id="lastNameError"></span><br/>
-    Age:
-    <input type="text" name="age"/>
-    <span id="ageError"></span><br/>
-    <input type="submit" onclick="return validate()" value="submit"/>
+  <span id="firstNameError"></span><br />
+  Last Name:
+  <input type="text" name="lastName" />
+  <span id="lastNameError"></span><br />
+  Age:
+  <input type="text" name="age" />
+  <span id="ageError"></span><br />
+  <input type="submit" onclick="return validate()" value="submit" />
 </form>
 
 <script>
-    function validate()
-    {
-        var thisForm = document.forms[0];
-        var firstName = thisForm.firstName;
-        var firstNameFailedStatus;
+  function validate() {
+    var thisForm = document.forms[0]
+    var firstName = thisForm.firstName
+    var firstNameFailedStatus
 
-    if(firstNameFailedStatus = (firstName.value.length == 0))
-    {
-        var v1 = document.getElementById("firstNameError");
-        v1.style.color = "red";
-        v1.innerHTML =  "Enter First Name";
-        thisForm.firstName.focus();
-        return false;
+    if ((firstNameFailedStatus = firstName.value.length == 0)) {
+      var v1 = document.getElementById('firstNameError')
+      v1.style.color = 'red'
+      v1.innerHTML = 'Enter First Name'
+      thisForm.firstName.focus()
+      return false
     }
-    var lastName = thisForm.lastName;
-    var lastNameFailedStatus;
-    if(lastNameFailedStatus = (lastName.value.length == 0))
-    {
-        var v2 = document.getElementById("lastNameError");
-        v2.style.color = "red";
-        v2.innerHTML =  "Enter last Name";
-        thisForm.lastName.focus();
-        return false;
+    var lastName = thisForm.lastName
+    var lastNameFailedStatus
+    if ((lastNameFailedStatus = lastName.value.length == 0)) {
+      var v2 = document.getElementById('lastNameError')
+      v2.style.color = 'red'
+      v2.innerHTML = 'Enter last Name'
+      thisForm.lastName.focus()
+      return false
     }
-    var age = thisForm.age;
-    var ageFailedStatus;
-    if(ageFailedStatus = (age.value.length == 0))
-    {
-        var v3 = document.getElementById("ageError");
-        v3.style.color = "red";
-        v3.innerHTML =  "Enter Age";
-        thisForm.age.focus();
-        return false;
+    var age = thisForm.age
+    var ageFailedStatus
+    if ((ageFailedStatus = age.value.length == 0)) {
+      var v3 = document.getElementById('ageError')
+      v3.style.color = 'red'
+      v3.innerHTML = 'Enter Age'
+      thisForm.age.focus()
+      return false
     }
-    /*
-    if(firstNameFailedStatus || lastNameFailedStatus || ageFailedStatus)
-    {
-        return false;
-    }*/
-    return true;
-}
+
+    return true
+  }
 </script>

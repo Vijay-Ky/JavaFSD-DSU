@@ -1,0 +1,36 @@
+package pack1;
+
+import java.sql.*;
+
+public class DbUtil
+{
+	public static int save(String firstName, String lastName) 
+	{
+		try
+		{
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+		}
+		catch (ClassNotFoundException ex)
+		{
+			ex.printStackTrace();
+		}
+
+		String sql = "insert into books values('" + name + "')";
+		
+		int status = 0;
+	
+		String url = "jdbc:oracle:thin:@localhost:1521:XE";
+		String username = "system";
+		String password = "developer";
+		try(Connection con = DriverManager.getConnection(url, username, password);
+			Statement stmt = con.createStatement())
+		{
+				status = stmt.executeUpdate(sql);
+		}
+		catch(SQLException ex)
+		{
+			ex.printStackTrace();
+		}
+		return status;
+	}
+}

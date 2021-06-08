@@ -1,27 +1,23 @@
 <!-- action is the attribute is used to specify where the form data is to be sent to the server after submission of the form. attribute value is URL-it is used to specify the URL of the document where the data to be sent after the submission of the form -->
 <form action="success.html">
-    Parameter 1: <input type="text" name="param1"/><br>
-    Parameter 2: <input type="text" name="param2"/><br>
-    <input type="submit" value="submit" onclick="return validate()"/>
+  Parameter 1: <input type="text" name="param1" /><br />
+  Parameter 2: <input type="text" name="param2" /><br />
+  <input type="submit" value="submit" onclick="return validate()" />
 </form>
 <script>
-    function validate()
-    {
-        //param1 is member of the form,forms is an array first form can be reffered through forms[0] and this one is the member of document. the whole html file can be refered as a document.document is an object
-        //in one html file we can able to develop any no. of forms
-        if(document.forms[0].param1.value.length == 0)
-        {
-            alert("Please enter Parameter1");
-            return false;
-        }
-        if(document.forms[0].param2.value.length == 0)
-        {
-            alert("Please enter Parameter2");
-            return false;
-        }
-        //if both the if block are not executed then returning true.
-        return true;
+  function validate() {
+    //param1 is member of the form,forms is an array first form can be reffered through forms[0] and this one is the member of document. the whole html file can be refered as a document.document is an object
+    if (document.forms[0].param1.value.length == 0) {
+      alert('Please enter Parameter1')
+      return false
     }
+    if (document.forms[0].param2.value.length == 0) {
+      alert('Please enter Parameter2')
+      return false
+    }
+    //if both the if block are not executed then returning true.
+    return true
+  }
 </script>
 <!-- 
     1. if validate return true then only submission will be continuing.

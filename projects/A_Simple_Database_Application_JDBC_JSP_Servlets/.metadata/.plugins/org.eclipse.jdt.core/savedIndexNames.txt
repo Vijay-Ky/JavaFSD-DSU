@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+F:\IDE_Projects\Projects\Java_DSU\A_Simple_Database_Application_JDBC_JSP_Servlets\.metadata\.plugins\org.eclipse.jdt.core
+661600371.index
+619232671.index

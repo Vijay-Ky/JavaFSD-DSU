@@ -1,0 +1,12 @@
+package app1;
+import java.sql.*;
+
+public class A {
+
+	public static void main(String[] args) {
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		
+
+	}
+
+}

@@ -1,93 +1,94 @@
 <p id="p1">initial content</p>
-<input type="button"
-       value="populate array content"
-       onclick="readArrayContent()"/>
-<input type="button"
-       value="sort array content based on first name"
-       onclick="sortArrayContentBasedOnFirstName()"/>
-<input type="button"
-       value="sort array content based on last name"
-       onclick="sortArrayContentBasedOnLastName()"/>
-<input type="button"
-       value="sort array content based on age"
-       onclick="sortArrayContentBasedOnAge()"/>
+<input
+  type="button"
+  value="populate array content"
+  onclick="readArrayContent()"
+/>
+<input
+  type="button"
+  value="sort array content based on first name"
+  onclick="sortArrayContentBasedOnFirstName()"
+/>
+<input
+  type="button"
+  value="sort array content based on last name"
+  onclick="sortArrayContentBasedOnLastName()"
+/>
+<input
+  type="button"
+  value="sort array content based on age"
+  onclick="sortArrayContentBasedOnAge()"
+/>
 
 <script>
-    //contains multiple objects
-    //every object contains three fields
-    var elements = [
-        {firstName: "d", lastName: "h", age: 22},
-        {firstName: "c", lastName: "g", age: 25},
-        {firstName: "b", lastName: "f", age: 28},
-        {firstName: "a", lastName: "e", age: 27}
-    ];
-    function readArrayContent()
-    {
-        var str = "";
-        var element;
-        for(var i = 0; i < elements.length; i++)
-        {
-            element = elements[i];
-            str += element.firstName + ", " + 
-            element.lastName + ", " + element.age + "<br/>";
-        }
-        document.getElementById("p1").innerHTML = str;
+  //contains multiple objects
+  //every object contains three fields
+  var elements = [
+    { firstName: 'd', lastName: 'h', age: 22 },
+    { firstName: 'c', lastName: 'g', age: 25 },
+    { firstName: 'b', lastName: 'f', age: 28 },
+    { firstName: 'a', lastName: 'e', age: 27 },
+  ]
+  function readArrayContent() {
+    var str = ''
+    var element
+    for (var i = 0; i < elements.length; i++) {
+      element = elements[i]
+      str +=
+        element.firstName +
+        ', ' +
+        element.lastName +
+        ', ' +
+        element.age +
+        '<br/>'
     }
-    function sortArrayContentBasedOnFirstName()
-    {
-        //by default, the sort() method sorts the values as strings in alphabetical and ascending order
-        //anonymous function to the sort function
-        elements.sort(function(a, b){
+    document.getElementById('p1').innerHTML = str
+  }
+  function sortArrayContentBasedOnFirstName() {
+    //by default, the sort() method sorts the values as strings in alphabetical and ascending order
+    //anonymous function to the sort function
+    elements.sort(function (a, b) {
+      //if it returns positive value a gets higher index than b and hence "a comes after b"
+      //
+      if (a.firstName > b.firstName) {
+        return 1
+      }
 
-            //if it returns positive value a gets higher index than b and hence "a comes after b"
-            // 
-            if(a.firstName > b.firstName)
-            {
-                return 1;
-            }
-            
-            //if returns negative value, a comes first by getting lower index than b
-            else if(a.firstName < b.firstName)
-            {
-                return -1;
-            }
-            //if both are equal return 0
-            //both gets same index and hence do not change place respect to each other but both gets sorted with all other elements.
-            else
-            {
-                return 0;
-            }
-        });
-        readArrayContent();
-    }
-    function sortArrayContentBasedOnLastName()
-    {
-        
-        elements.sort(function(a, b){
-            //if it returns positive value a gets higher index than b and hence "a comes after b"
-            if(a.lastName > b.lastName)
-            {
-                return 1;
-            }
-            //if returns negative value, a comes first by getting lower index than b
-            else if(a.lastName < b.lastName)
-            {
-                return -1;
-            }
-            //if both are equal return 0
-            else
-            {
-                return 0;
-            }
-        });
-        readArrayContent();
-    }
-    function sortArrayContentBasedOnAge()
-    {
-        elements.sort(function(a, b){
-            return a.age - b.age; }); 
-        readArrayContent();
-    }
+      //if returns negative value, a comes first by getting lower index than b
+      else if (a.firstName < b.firstName) {
+        return -1
+      }
+      //if both are equal return 0
+      //both gets same index and hence do not change place respect to each other but both gets sorted with all other elements.
+      else {
+        return 0
+      }
+    })
+    readArrayContent()
+  }
+  function sortArrayContentBasedOnLastName() {
+    elements.sort(function (a, b) {
+      //if it returns positive value a gets higher index than b and hence "a comes after b"
+      if (a.lastName > b.lastName) {
+        return 1
+      }
+      //if returns negative value, a comes first by getting lower index than b
+      else if (a.lastName < b.lastName) {
+        return -1
+      }
+      //if both are equal return 0
+      else {
+        return 0
+      }
+    })
+    readArrayContent()
+  }
+  function sortArrayContentBasedOnAge() {
+    elements.sort(function (a, b) {
+      return a.age - b.age
+    })
+    readArrayContent()
+  }
 </script>
 <!-- 
     1.The sort() method sorts the items of an array

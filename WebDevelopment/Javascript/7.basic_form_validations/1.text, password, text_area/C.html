@@ -1,25 +1,22 @@
 <form action="success.html">
-    Parameter 1: <input type="text" name="param1"/><br>
-    Parameter 2: <input type="text" name="param2"/><br>
-    <input type="submit" value="submit" onclick="return validate()"/>
+  Parameter 1: <input type="text" name="param1" /><br />
+  Parameter 2: <input type="text" name="param2" /><br />
+  <input type="submit" value="submit" onclick="return validate()" />
 </form>
 <script>
-    function validate()
-    {
-        //to reduce the length 
-        var myForm = document.forms[0];
-        if(myForm.param1.value.length == 0)
-        {
-            alert("Please enter Parameter1");
-            document.forms[0].param1.focus();
-            return false;
-        }
-        if(myForm.param2.value.length == 0)
-        {
-            alert("Please enter Parameter2");
-            document.forms[0].param2.focus();
-            return false;
-        }
-        return true;
+  function validate() {
+    //to reduce the length
+    var myForm = document.forms[0]
+    if (myForm.param1.value.length == 0) {
+      alert('Please enter Parameter1')
+      document.forms[0].param1.focus()
+      return false
     }
+    if (myForm.param2.value.length == 0) {
+      alert('Please enter Parameter2')
+      document.forms[0].param2.focus()
+      return false
+    }
+    return true
+  }
 </script>

@@ -1,35 +1,31 @@
 <form action="success.html">
-    <!-- we can select multiple checkboxes -->
-    Skills: <input type="checkbox" name="skill" value="c"/>C &nbsp;&nbsp;
-    <input type="checkbox" name="skill" value="cpp"/>C++ &nbsp;&nbsp;
-    <input type="checkbox" name="skill" value="java"/>Java &nbsp;&nbsp;
-    <input type="checkbox" name="skill" value="orcl"/>Oracle <br/>
-    <input type="submit" value="submit" onclick="return validate()"/>
+  <!-- we can select multiple checkboxes -->
+  Skills: <input type="checkbox" name="skill" value="c" />C &nbsp;&nbsp;
+  <input type="checkbox" name="skill" value="cpp" />C++ &nbsp;&nbsp;
+  <input type="checkbox" name="skill" value="java" />Java &nbsp;&nbsp;
+  <input type="checkbox" name="skill" value="oracl" />Oracle <br />
+  <input type="submit" value="submit" onclick="return validate()" />
 </form>
 <script>
-    function validate()
-    {
-        var f1 = document.forms[0];
-        //this skills acting as an array
-        //we need to iterate that through for loop
-        //to check wheather at least one skill is selected or not
-        var skills = f1.skill;
-        var flag = false;
-        for(var i = 0; i < skills.length; i++)
-        {
-            //checked is the property in the radio button and also in the checkbox
-            if(skills[i].checked)
-            {
-                flag = true;
-                break;
-            }
-        }
-        if(!flag)
-        {
-            alert("Please select at least one checkbox");
-            skills[0].focus();
-            return false;
-        }
-        return true;
+  function validate() {
+    var f1 = document.forms[0]
+    //this skills acting as an array
+    //we need to iterate that through for loop
+    //to check wheather at least one skill is selected or not
+    var skills = f1.skill
+    var flag = false
+    for (var i = 0; i < skills.length; i++) {
+      //checked is the property in the radio button and also in the checkbox
+      if (skills[i].checked) {
+        flag = true
+        break
+      }
     }
+    if (!flag) {
+      alert('Please select at least one checkbox')
+      skills[0].focus()
+      return false
+    }
+    return true
+  }
 </script>

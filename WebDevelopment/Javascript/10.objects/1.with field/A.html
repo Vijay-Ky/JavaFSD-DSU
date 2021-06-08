@@ -1,24 +1,31 @@
-<p id="p1"> initial data</p>
-<input type="button" value="Print Object" onclick="printObject()"/>
+<p id="p1">initial data</p>
+<input type="button" value="Print Object" onclick="printObject()" />
 
 <script>
-    function printObject()
-    {
-        //javascript object creation
-        //attributes and values
-        //javascript object also should be declared with var keyword
-        //emp variable points to javascript object
-        var emp =
-        {
-            firstName: "vijay",
-            lastName: "kumar",
-            age: 990,
-            weight: 1000,
-            permanent: true
-        };
-        //use the reference emp to access the data
-        var empData = emp.firstName + "," + emp.lastName + "," + emp.age + "," + emp.weight + ","  + emp.permanent;
-        //p1 element content we are replacing with with emp data
-        document.getElementById("p1").innerHTML = empData;
+  function printObject() {
+    //javascript object creation
+    //attributes and values
+    //javascript object also should be declared with var keyword
+    //emp variable points to javascript object
+    var emp = {
+      firstName: 'vijay',
+      lastName: 'kumar',
+      age: 990,
+      weight: 1000,
+      permanent: true,
     }
+    //use the reference emp to access the data
+    var empData =
+      emp.firstName +
+      ',' +
+      emp.lastName +
+      ',' +
+      emp.age +
+      ',' +
+      emp.weight +
+      ',' +
+      emp.permanent
+    //p1 element content we are replacing with with emp data
+    document.getElementById('p1').innerHTML = empData
+  }
 </script>

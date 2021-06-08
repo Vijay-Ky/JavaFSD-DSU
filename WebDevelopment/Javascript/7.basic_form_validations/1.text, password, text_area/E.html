@@ -1,34 +1,30 @@
 <form action="success.html">
-    First Name: <input type="text" name="firstName"/> <br/>
-    CC Number: <input type="password" name="cardNumber"/> <br/>
-    Address: <textarea cols="15" rows="4" name="address"></textarea><br/>
-    <input type="submit" value="submit" onclick="return validateMyForm()"/>
+  First Name: <input type="text" name="firstName" /> <br />
+  CC Number: <input type="password" name="cardNumber" /> <br />
+  Address: <textarea cols="15" rows="4" name="address"></textarea><br />
+  <input type="submit" value="submit" onclick="return validateMyForm()" />
 </form>
 <script>
-    function validateMyForm()
-    {
-        var f1 = document.forms[0];
-        var fName = f1.firstName;
-        if(fName.value.length == 0)
-        {
-            alert("Please enter first name");
-            fName.focus();
-            return false;
-        }
-        var cNum = f1.cardNumber;
-        if(cNum.value.length == 0)
-        {
-            alert("Please enter Credit card number");
-            cNum.focus();
-            return false;
-        }
-        var addressDetails = f1.address;
-        if(addressDetails.value.length == 0)
-        {
-            alert("Please enter address");
-            addressDetails.focus();
-            return false;
-        }
-        return true;
+  function validateMyForm() {
+    var f1 = document.forms[0]
+    var fName = f1.firstName
+    if (fName.value.length == 0) {
+      alert('Please enter first name')
+      fName.focus()
+      return false
     }
+    var cNum = f1.cardNumber
+    if (cNum.value.length == 0) {
+      alert('Please enter Credit card number')
+      cNum.focus()
+      return false
+    }
+    var addressDetails = f1.address
+    if (addressDetails.value.length == 0) {
+      alert('Please enter address')
+      addressDetails.focus()
+      return false
+    }
+    return true
+  }
 </script>

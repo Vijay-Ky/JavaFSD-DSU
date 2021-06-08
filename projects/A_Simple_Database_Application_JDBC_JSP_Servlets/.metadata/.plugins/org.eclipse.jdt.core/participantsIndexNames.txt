@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+F:\IDE_Projects\Projects\Java_DSU\A_Simple_Database_Application_JDBC_JSP_Servlets\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\105383260.index
+\JSP\src
+F:\IDE_Projects\Projects\Java_DSU\A_Simple_Database_Application_JDBC_JSP_Servlets\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2817563676.index
+\JSPReadingData\src

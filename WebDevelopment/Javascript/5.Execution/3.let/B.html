@@ -1,10 +1,12 @@
 <script>
-    test()
-    function test()
-    {
-        let i = 300;
+  test()
+  function test() {
+    if (true) {
+      let i = 300
     }
-    alert(i);/*press cntrl + shift + i and you will get error
+    alert(i)
+  }
+  /*press cntrl + shift + i and you will get error
     Uncaught ReferenceError: i is not defined
     at B.html:7
     bcz i is  local to test function and cant be used outside.

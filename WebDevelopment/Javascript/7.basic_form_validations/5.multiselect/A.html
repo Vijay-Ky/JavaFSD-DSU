@@ -1,40 +1,36 @@
 <form action="success.html">
-    Education:
-    <select name="education" multiple>
-        <option value="pls">please select</option>
-        <option value="be">BE</option>
-        <option value="mca">MCA</option>
-        <!-- can be in the middle this will be selected by default -->
-        <option value="mba">MBA</option>
-        <option value="bba">BBA</option>
-        <option value="bca">BCA</option> 
-        <option value="bsc">Bsc</option> 
-       
-    </select> <br/>
-    <input type="submit" value="submit" onclick="return validate()"/>
+  Education:
+  <select name="education" multiple>
+    <option value="pls">please select</option>
+    <option value="be">BE</option>
+    <option value="mca">MCA</option>
+    <!-- can be in the middle this will be selected by default -->
+    <option value="mba">MBA</option>
+    <option value="bba">BBA</option>
+    <option value="bca">BCA</option>
+    <option value="bsc">Bsc</option>
+  </select>
+  <br />
+  <input type="submit" value="submit" onclick="return validate()" />
 </form>
 
 <script>
-    function validate()
-    {
-        var f1 = document.forms[0];
-        var education = f1.education;
-        var flag = false;
-        for(var i = 0; i < education.length; i++)
-        {
-            //the selected one should not be with a value as pls
-            if(education[i].selected && education[i].value != "pls")
-            {
-                flag = true;
-                break;
-            }   
-        }
-            if(!flag)
-            {
-                alert("Please select at least one");
-                education[0].focus();
-                return false;
-            }
-            return true;
+  function validate() {
+    var f1 = document.forms[0]
+    var education = f1.education
+    var flag = false
+    for (var i = 0; i < education.length; i++) {
+      //the selected one should not be with a value as pls
+      if (education[i].selected && education[i].value != 'pls') {
+        flag = true
+        break
+      }
     }
+    if (!flag) {
+      alert('Please select at least one')
+      education[0].focus()
+      return false
+    }
+    return true
+  }
 </script>

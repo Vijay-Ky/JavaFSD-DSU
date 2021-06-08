@@ -5,19 +5,18 @@
 <!-- 
     -in case of submitting form only we should need submit
     - onclick="change()" should not give return, return is only for submitting a form -->
-<input type="button" value="change" onclick="change()"/>
+<input type="button" value="change" onclick="change()" />
 
 <script>
-    function change()
-    {
-        var v1 = document.getElementById("p1");
-        var v2 = document.getElementById("p2");
-        var v3 = document.getElementById("p3");
-        //through inner HTML we can modify body content of specified element.
-        v1.innerHTML = "I Just changed the p1";
-        v2.innerHTML = "I Just changed the p2";
-        v3.innerHTML = "I Just changed the p3";
-    }
+  function change() {
+    var v1 = document.getElementById('p1')
+    var v2 = document.getElementById('p2')
+    var v3 = document.getElementById('p3')
+    //through inner HTML we can modify body content of specified element.
+    v1.innerHTML = 'I Just changed the p1'
+    v2.innerHTML = 'I Just changed the p2'
+    v3.innerHTML = 'I Just changed the p3'
+  }
 </script>
 <!-- 
     for any element we can use this getElementById

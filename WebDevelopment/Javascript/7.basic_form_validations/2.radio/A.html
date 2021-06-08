@@ -1,35 +1,31 @@
 <form action="success.html">
-    <!-- both types are radio and name is same so both comes under same group, only one can select -->
-    <!-- &nbsp nonbreaking space -->
-    Gender: <input type="radio" name="gender" value="m"/>Male &nbsp;&nbsp;
-    <input type="radio" name="gender" value="f"/>Female <br/>
-    <input type="submit" value="submit" onclick="return validate()"/>
+  <!-- both types are radio and name is same so both comes under same group, only one can select -->
+  <!-- &nbsp nonbreaking space -->
+  Gender: <input type="radio" name="gender" value="m" />Male &nbsp;&nbsp;
+  <input type="radio" name="gender" value="f" />Female <br />
+  <input type="submit" value="submit" onclick="return validate()" />
 </form>
 <script>
-    function validate()
-    {
-        var f1 = document.forms[0];
-        //this genderid acting as an array
-        //we need to iterate that through for loop
-        //to check wheather at least one gender is selected or not
-        var genderid = f1.gender;
-        var flag = false;
-        for(var i = 0; i < genderid.length; i++)
-        {
-            //checked is the property in the radio button and also in the checkbox
-            if(genderid[i].checked)
-            {
-                flag = true;
-                break;
-            }
-        }
-        if(!flag)
-        {
-            alert("Please select gender");
-            genderid[0].focus();
-            return false;
-        }
-        return true;
+  function validate() {
+    var f1 = document.forms[0]
+    //this genderid acting as an array
+    //we need to iterate that through for loop
+    //to check wheather at least one gender is selected or not
+    var genderid = f1.gender
+    var flag = false
+    for (var i = 0; i < genderid.length; i++) {
+      //checked is the property in the radio button and also in the checkbox
+      if (genderid[i].checked) {
+        flag = true
+        break
+      }
     }
+    if (!flag) {
+      alert('Please select gender')
+      genderid[0].focus()
+      return false
+    }
+    return true
+  }
 </script>
 <!-- if radio button not focused automatically just press space bar to select focused radio button -->

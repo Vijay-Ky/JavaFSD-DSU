@@ -1,19 +1,21 @@
 <p id="p1">initial content</p>
-<input type="button" value="left shift" onclick="shifting()"/>
-<input type="button" value="populate array content" onclick="readArrayContent()"/>
+<input type="button" value="left shift" onclick="shifting()" />
+<input
+  type="button"
+  value="populate array content"
+  onclick="readArrayContent()"
+/>
 
 <script>
-    var elements = [100, 20.0, true, "hello", 500];
-    function readArrayContent()
-    {   
-        document.getElementById("p1").innerHTML = elements.join(", ");
-    }
-    function shifting()
-    {
-        //shift method removing first element   
-        //the default shift is left shift
-        var element = elements.shift();
-        //alert(element);
-        readArrayContent();
-    }
+  var elements = [100, 20.0, true, 'hello', 500]
+  function readArrayContent() {
+    document.getElementById('p1').innerHTML = elements.join(', ')
+  }
+  function shifting() {
+    //shift method removing first element
+    //the default shift is left shift
+    var element = elements.shift()
+    //alert(element);
+    readArrayContent()
+  }
 </script>
