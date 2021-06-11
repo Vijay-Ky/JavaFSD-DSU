@@ -1,0 +1,13 @@
+package com.code.web.jdbc;
+
+public class Student {
+
+	private int id;
+	private String firstname;
+	private String lastname;
+	private String email;
+	
+	
+	
+	
+}

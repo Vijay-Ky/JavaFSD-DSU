@@ -1,0 +1,80 @@
+<%@ page import="java.util.*, com.code.web.jdbc.*" %>
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<title>Student Tracker App</title>	
+	
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<%
+	// get the students from the request object (sent by servlet)
+	List<Student> theStudents = 
+					(List<Student>) request.getAttribute("STUDENT_LIST");
+%>
+
+<body>
+
+	<div id="wrapper">
+		<div id="header">
+			<h2>Free University</h2>
+		</div>
+	</div>
+
+	<div id="container">
+	
+		<div id="content">
+		
+		<!-- put new button: Add Student -->
+			
+			<input type="button" value="Add Student" 
+				   onclick="window.location.href='add-student-form.jsp'; return false;"
+				   class="add-student-button"
+			/>
+			
+		
+			<table>
+			
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email</th>
+					<th>Action</th>
+				</tr>
+				<c:forEach var="tempStudent" items="${STUDENT_LIST}">
+					
+					<!-- set up a link for each student -->
+					<c:url var="tempLink" value="StudentControllerServlet">
+						<c:param name="command" value="LOAD" />
+						<c:param name="studentId" value="${tempStudent.id}" />
+					</c:url>
+				
+				<% for (Student tempStudent : theStudents) { %>
+				
+					<tr>
+						<td> <%= tempStudent.getFirstName() %> </td>
+						<td> <%= tempStudent.getLastName() %> </td>
+						<td> <%= tempStudent.getEmail() %> </td>
+					</tr>
+				
+				<% } %>
+				
+			</table>
+		
+		</div>
+	
+	</div>
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+

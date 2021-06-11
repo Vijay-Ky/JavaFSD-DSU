@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.annotation.Resource"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Statement"/>
+    <fullyQualifiedTypeName name="com.sun.jdi.connect.spi.Connection"/>
+    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+</qualifiedTypeNameHistroy>
